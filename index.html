@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Precious Threads — Baby Clothes</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Baloo+2:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFF9F2;--surface:#FFFFFF;--pink:#F2A7BB;--pink-deep:#D97B96;--blue:#A8D0E6;--mint:#BFE3CF;--cream:#FFF3E4;--accent:#D97B96;--text:#5B4A42;--muted:#9A8578;--line:#F3D9DE;--sans:'Quicksand',sans-serif;--display:'Baloo 2',cursive}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:500;line-height:1.6;overflow-x:hidden}
+#bg{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;opacity:.22;pointer-events:none}
+#bgwrap{position:fixed;inset:0;background:rgba(255,249,242,.72);z-index:0;pointer-events:none}
+header,section.hero,main,footer{position:relative;z-index:1}
+header{position:sticky;top:0;background:rgba(255,249,242,.97);border-bottom:2px solid var(--pink);z-index:10;padding:14px 20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+h1{font-family:var(--display);font-weight:700;font-size:32px;color:var(--pink-deep);letter-spacing:.02em}
+h1 span{font-size:13px;color:var(--muted);letter-spacing:.28em;text-transform:uppercase;display:block;font-family:var(--sans)}
+.badge{background:#FDEEF2;border:1px solid var(--pink);border-radius:20px;padding:6px 14px;font-size:13px;color:var(--pink-deep)}
+.hero{position:relative;max-height:520px;overflow:hidden}
+.hero video{width:100%;height:520px;object-fit:cover;display:block}
+.hero .over{position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,249,242,.05),rgba(91,74,66,.45));display:flex;flex-direction:column;justify-content:flex-end;padding:32px;color:#fff}
+.hero h2{font-family:var(--display);font-size:clamp(34px,6vw,58px);font-weight:700;text-shadow:0 2px 10px rgba(91,74,66,.35)}
+main{max-width:1200px;margin:0 auto;padding:28px 20px 60px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.filters button{border:1px solid var(--pink);background:#fff;color:var(--text);border-radius:20px;padding:8px 16px;cursor:pointer;font:inherit;font-size:14px;font-weight:600}
+.filters button.on{background:var(--pink);color:#fff;border-color:var(--pink)}
+.search{width:100%;max-width:420px;padding:10px 14px;border:1px solid var(--pink);border-radius:8px;font:inherit;background:#fff;color:var(--text)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-top:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center;overflow-wrap:anywhere}
+.card img{width:100%;height:200px;object-fit:contain}
+.card .nopic{width:100%;height:200px;display:flex;align-items:center;justify-content:center;background:var(--cream);border-radius:8px;color:var(--muted);font-size:13px;padding:12px;text-align:center}
+.card .nm{font-weight:600;font-size:14px;margin:8px 0 2px;min-height:42px}
+.card .pr{color:var(--pink-deep);font-weight:700}
+.card .pr i{font-size:12px;color:var(--muted);font-style:normal;font-weight:500}
+.card .meta{font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.card .meta a{color:var(--pink-deep)}
+.card .note{font-size:12px;color:#8A6D5C;background:var(--cream);border-radius:8px;padding:6px 8px;margin-top:8px;text-align:left}
+.card button{margin-top:8px;width:100%;padding:9px;border:1px solid var(--pink);background:transparent;color:var(--pink-deep);border-radius:8px;cursor:pointer;font:inherit;font-weight:600}
+.card button:hover{background:var(--pink);color:#fff}
+h2.sec{font-family:var(--display);font-size:28px;color:var(--pink-deep);margin:36px 0 6px}
+.soon{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin-top:14px}
+.soon .card{text-align:left;padding:16px}
+.soon .card b{font-family:var(--display);font-size:19px;color:var(--pink-deep)}
+footer{border-top:2px solid var(--pink);padding:28px 20px;text-align:center;color:var(--muted);font-size:14px}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--pink-deep);color:#fff;padding:12px 20px;border-radius:10px;display:none;max-width:90%;text-align:center;z-index:20}
+.count{color:var(--muted);font-size:14px}
+@media (max-width:600px){.hero video{height:300px}h1{font-size:25px}.hero .over{padding:20px}}
+@media (prefers-reduced-motion:reduce){#bg{display:none}}
+</style></head>
+<body>
+<video id="bg" src="bg.mp4" muted loop autoplay playsinline aria-hidden="true"></video>
+<div id="bgwrap" aria-hidden="true"></div>
+<header><h1>Precious Threads<span>Soft baby clothes</span></h1><span class="badge">DRAFT PREVIEW &mdash; not live yet</span></header>
+<section class="hero">
+<video src="hero.mp4" poster="hero-poster.jpg" muted loop autoplay playsinline preload="metadata" aria-label="Precious Threads — baby clothes"></video>
+<div class="over"><h2>Precious Threads.</h2></div>
+</section>
+<main>
+<input class="search" id="q" type="search" placeholder="Search &mdash; try &lsquo;onesie&rsquo;, &lsquo;socks&rsquo;, &lsquo;romper&rsquo;&hellip;" oninput="render()">
+<div class="filters" id="filters"></div>
+<p class="count" id="count"></p>
+<div class="grid" id="grid"></div>
+
+<h2 class="sec">Discount / Blowout Sale</h2>
+<div class="grid" id="discountGrid"></div>
+
+<h2 class="sec">Coming soon</h2>
+<div class="soon">
+<div class="card"><b>Sleepers</b></div>
+<div class="card"><b>Dresses</b></div>
+<div class="card"><b>Hats</b></div>
+<div class="card"><b>Blankets</b></div>
+<div class="card"><b>Tiny Shoes</b></div>
+<div class="card"><b>More Gift Sets</b></div>
+</div>
+</main>
+<footer>Precious Threads &mdash; draft preview, November 2026. Not live, nothing for sale yet.<br>Baby clothes only &middot; dropship only &middot; reasonable prices, modest markup over supplier cost.</footer>
+<div id="toast"></div>
+<script>
+let PRODUCTS=[]; let dept='All';
+const DEPTS=['All','Discount / Blowout','Onesies & Rompers','Socks & Accessories','Baby Gift Sets'];
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',3200)}
+if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){const b=document.getElementById('bg');if(b){b.pause();b.style.display='none'}}
+fetch('products.json').then(r=>r.json()).then(d=>{PRODUCTS=d;buildFilters();render()});
+function buildFilters(){document.getElementById('filters').innerHTML=DEPTS.map(x=>`<button class="${x===dept?'on':''}" onclick="dept='${x.replace(/'/g,"\\'")}';buildFilters();render()">${x}</button>`).join('')}
+function render(){
+ const q=(document.getElementById('q').value||'').toLowerCase();
+ const list=PRODUCTS.filter(p=>((dept==='All')||(dept==='Discount / Blowout'?p.discount:p.dept===dept))&&(!q||(p.name+' '+p.cat+' '+p.sku).toLowerCase().includes(q)));
+ document.getElementById('count').textContent=list.length+' products shown of '+PRODUCTS.length+' in this preview.';
+ document.getElementById('grid').innerHTML=list.map(p=>card(p)).join('');
+ const disc=PRODUCTS.filter(p=>p.discount);
+ document.getElementById('discountGrid').innerHTML=disc.map(p=>card(p)).join('');
+}
+function card(p){
+ const pic=p.has_pic?`<img src="${p.img}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">`:`<div class="nopic">Picture on the supplier product page &mdash; review before live</div>`;
+ const price=p.price?(p.retail?`Supplier cost $${p.price} &middot; suggested retail $${p.retail} <i>(modest markup) &mdash; price to verify</i>`:`Supplier cost $${p.price} <i>&mdash; price to verify</i>`):`Price to verify`;
+ const link=p.url?`<br><a href="${p.url}" target="_blank" rel="noopener">See it on the supplier page</a> &middot; ${p.sku}`:` &middot; ${p.sku}`;
+ const wh=p.warehouse?` &middot; ${p.warehouse}`:'';
+ const note=p.note?`<div class="note">${p.note}</div>`:'';
+ return `<div class="card">${pic}<div class="nm">${p.name}</div><div class="pr">${price}</div><div class="meta">${p.dept} &middot; ${p.source}${wh}${link}</div>${note}<button onclick="toast('Checkout coming soon. This is a draft preview &mdash; nothing is for sale yet.')">Buy &mdash; coming soon</button></div>`}
+</script></body></html>
