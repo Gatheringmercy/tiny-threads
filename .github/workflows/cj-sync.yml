@@ -1,0 +1,76 @@
+# CJ Dropshipping -> Precious Threads product sync.
+#
+# Pulls baby products from CJ Dropshipping's API and commits them into
+# products.json. Vercel redeploys automatically on push, so the preview
+# updates with no manual step.
+#
+# Secrets needed (repo Settings -> Secrets and variables -> Actions):
+#   CJ_API_KEY  - Diana's CJ API key (Type "API Key", Activated). NEVER in code.
+#   CJ_EMAIL    - Diana's CJ account email.
+#
+# First runs stay small: max_products defaults to 10. Raise it only after
+# Diana reviews the test batch. Nothing here orders anything, touches DNS,
+# or changes any other store.
+#
+# NOTE: scheduled runs only fire from the repo's DEFAULT branch. While this
+# file lives on the cj-sync branch, use "Run workflow" by hand to test it.
+# After Diana merges the PR, the daily schedule starts on its own.
+
+name: CJ sync — Precious Threads
+
+on:
+  schedule:
+    # Daily at 14:00 UTC (06:00 PST) — after the morning, before the day's work.
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+    inputs:
+      max_products:
+        description: 'Max new products to import this run (keep small until reviewed)'
+        required: false
+        default: '10'
+      dry_run:
+        description: 'Dry run — fetch from CJ and write the report, but do not change products.json'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cj-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run CJ sync
+        env:
+          CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
+          CJ_EMAIL: ${{ secrets.CJ_EMAIL }}
+        run: |
+          ARGS="--max ${{ inputs.max_products || '10' }}"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          node scripts/cj-sync.mjs $ARGS
+
+      - name: Commit updated products (if anything changed)
+        run: |
+          git config user.name "muse-cj-sync"
+          git config user.email "muse-cj-sync@users.noreply.github.com"
+          git add products.json counts.json cj-sync-report.md
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            git commit -m "CJ sync: $(date -u +%F) — baby products from CJ Dropshipping (review before live)"
+            git push
+          fi
