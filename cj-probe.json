@@ -1,7 +1,0 @@
-{
-  "enabled": true,
-  "keywords": ["kids clothes", "children's clothing", "kids clothing", "toddler clothes", "baby clothes", "boys clothes", "girls clothes", "kids jeans"],
-  "keep": ["clothes", "clothing", "jeans", "dress", "shirt", "pants", "shorts", "jacket", "coat", "sweater", "hoodie", "romper", "onesie", "set", "outfit", "top", "skirt", "leggings"],
-  "exclude": ["men", "women", "adult", "lady", "ladies", "mens", "womens", "maternity", "dog", "pet", "cat", "doll"],
-  "label": "kids clothing probe 2026-11-23 — Precious Threads: kids and baby clothing, all ages (name-filtered, pictures required)"
-}
