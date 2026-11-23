@@ -1,98 +1,90 @@
 # CJ sync report
 
-- Run: 2026-11-23T15:01:43.449Z (DRY RUN — nothing written)
-- Keywords: women's jeans, women jeans, ladies jeans, womens jeans, denim jeans women, clearance jeans, sale jeans
-- Added: 55 (cap: 100) — Skipped: 16 — Already in file: 16
+- Run: 2026-11-23T15:16:59.063Z (DRY RUN — nothing written)
+- Keywords: women's shirts, women shirts, ladies shirts, womens shirts, women blouse, ladies blouse, clearance shirts, sale shirts
+- Added: 44 (cap: 100) — Skipped: 18 — Already in file: 16
 
-## Probe filter summary (women's jeans probe 2026-11-23 — Little Luxuries: clean women's jeans list incl. clearance/deal jeans (name-filtered, pictures required))
+## Probe filter summary (women's shirts probe 2026-11-23 — Little Luxuries: clean women's shirts list (shirts only, no sweaters/hoodies/sweatshirts; name-filtered, pictures required))
 
-- Total results returned by CJ across 7 keywords: 140
-  - "women's jeans": 20 results
-  - "women jeans": 20 results
-  - "ladies jeans": 20 results
-  - "womens jeans": 20 results
-  - "denim jeans women": 20 results
-  - "clearance jeans": 20 results
-  - "sale jeans": 20 results
-- Filtered out by name: 6 (no kept term candle/wax/soy: 0; excluded term LED/flameless/electric/holder/warmer/lamp/fake: 6)
-- Name filter kept: 134 results for further checks (bulk, image, details)
+- Total results returned by CJ across 8 keywords: 160
+  - "women's shirts": 20 results
+  - "women shirts": 20 results
+  - "ladies shirts": 20 results
+  - "womens shirts": 20 results
+  - "women blouse": 20 results
+  - "ladies blouse": 20 results
+  - "clearance shirts": 20 results
+  - "sale shirts": 20 results
+- Filtered out by name: 18 (no kept term candle/wax/soy: 0; excluded term LED/flameless/electric/holder/warmer/lamp/fake: 18)
+- Name filter kept: 142 results for further checks (bulk, image, details)
 
 ## Added
 
-- **Women Cargo Jeans Light Blue Utility Denim Pants Drawstring Waist Multi Pocket Casual Jogger Jeans Wholesale US Ready Stock** — SKU `CJ-2097943660657483777`, cost $19.66, suggested retail $29.49, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/686c40ff-badc-4a61-8e0a-396335750362.jpg
-- **US Ready Stock Women High Waist Wide Leg Jeans Triple Button Denim Pants Front Seam Loose Fit Jeans Wholesale** — SKU `CJ-2097977933971943425`, cost $20.51, suggested retail $30.77, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/772412be-cbe6-4733-9131-4d9e66740654.jpg
-- **Women Embroidered Flare Jeans High Waist Dark Blue Vintage Denim Pants Floral Detail Y2K Bell Bottom Jeans Wholesale Ready Stock** — SKU `CJ-2097932983479885826`, cost $20.28, suggested retail $30.42, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/e7f8d13d-b9f6-4364-8576-00c2bc62b584.jpg
-- **Women Drawstring Elastic Waist Wide Leg Denim Pants Light Wash Casual Jeans** — SKU `CJ-2113574545152208898`, cost $18.39, suggested retail $27.59, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17927136/aa79eeb5-a02e-49af-9a0c-1d59f1c9a393.jpg
-- **Women Mid Waist Blue Wide Leg Denim Jeans Loose Casual Long Pants** — SKU `CJ-2113574732767621122`, cost $17.46, suggested retail $26.19, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17927136/2e87b6c1-4db2-481f-9736-9df3af6ff92c.jpg
-- **Women Mid Waist Dark Blue Stretch Flare Denim Jeans Vintage Faded Pants** — SKU `CJ-2113574990348599298`, cost $18.86, suggested retail $28.29, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17927136/5887cc96-73d0-473f-89a5-7638a0245e59.jpg
-- **Women Mid Waist Floral Print Ripped Wide Leg Denim Jeans Distressed Pants** — SKU `CJ-2113574591482490882`, cost $18.63, suggested retail $27.95, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17927136/2fe62cb7-c591-4848-9a85-46a1d7f5e15f.jpg
-- **Mid Rise Black Slim Capri Jeans For Women, Rolled Hem Cropped Denim Pants** — SKU `CJ-2114630375908818945`, cost $17.30, suggested retail $25.95, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17929728/26f5783b-2ba8-4ebf-abf1-9b889db3cc30.jpg
-- **Simple Fashion Ladies High Stretch Jeans** — SKU `CJ-1391347348424232960`, cost $6.30, suggested retail $9.45, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/1620557892355.jpg, chart: 3XL $9.45
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1990260898609143810`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/ad6550b2-ef50-4868-96a7-6e685891cb62.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1990241612842971137`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/dc6aa52d-71df-4471-a326-dc119fc59ffa.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1993878187775250434`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/61cef498-3b01-4320-9212-7bcc2fe7d342.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1979019721480204290`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/2a502af8-5d7e-43bd-b030-1e87da0c6b97.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1977582800549339138`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/00037840-3ad5-400c-b4f3-ed2c940c1ff4.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1983077661346652161`, cost $4.74, suggested retail $7.11, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/cb332e5f-894b-4e5d-8fbf-fc72a822c3b8.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1977928652371419137`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/eca261e3-198b-4d21-a3f4-9a6bbe0889e1.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1979390858674479105`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/5997b5ce-66f8-492b-b319-32a50897ec0b.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1980117860220006401`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/2a7adfcc-574b-4220-9ed2-e17314196e92.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1989579264529768449`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/95a050a0-15d6-4ff7-8dbf-f508a2d4a5a2.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1989176780933091329`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/56e69742-7f8c-45a3-acc5-db02774a2e0f.png
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1981206961266647042`, cost $4.74, suggested retail $7.11, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/714449ac-74c0-47b0-aad1-637986782aea.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1979018873891057665`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/f8d47f94-4f7b-4f84-ac29-c21524ff7627.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1980115931038674945`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/4dd5a6e6-2562-45e7-928e-8bba51fa797a.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1982682105586884610`, cost $4.58, suggested retail $6.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/80bd52e0-eda2-461f-b672-6af792d6b387.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1980482173567856641`, cost $4.74, suggested retail $7.11, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/3020fcb0-982e-4faf-a5a6-76e4aa3b1bcc.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1981932239314141185`, cost $4.74, suggested retail $7.11, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/a7799591-adea-42ca-85e9-50658c3d5ed9.jpg
-- **Ladies' Casual And Fashionable Retro Printed High-waisted Single-button Flared Pants, Comfortable Fake Jeans Can Modify The Leg Shape** — SKU `CJ-1981206018273861634`, cost $4.09, suggested retail $6.14, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/faad9f8e-13ff-4452-aaeb-f9ff2d2dc4cb.jpg
-- **Womens Retro Floral High-Waist Wide-Leg Denim Jeans** — SKU `CJ-2512170301141602000`, cost $5.14, suggested retail $7.71, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/5c9d46b1-6fab-49b6-b495-ae0a61e33726.jpg
-- **Womens Relaxed-fit Floral Cropped Wide-leg Mid-rise Jeans** — SKU `CJ-2512310512211602200`, cost $8.94, suggested retail $13.41, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/ae715b44-c909-4205-a027-e8d977c69bea.jpg
-- **Fashion High Waist Jeans With Pockets Comfortable Slim Fit Straight Wide-leg Pants Womens Clothing** — SKU `CJ-1825053848592338944`, cost $8.69, suggested retail $13.04, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2024/08/20/07/6c69da1e-a131-4dab-9880-4f3aa6a95436.jpg
-- **High-Rise Slim Fit Blue Jeans - Stretchy Denim, Slant Pockets, Comfortable High-Stretch Fabric, Womens Fashionable Denim Pants For Everyday Wear - Premium Quality, Soft Touch, And Stylish Design Amazo** — SKU `CJ-1925001384542584833`, cost $19.50, suggested retail $29.25, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/79555fb0-9346-4518-8c49-002c5f956ff1.jpg
-- **Fall Winter Womens Navy Blue High Waist Skinny Jeans Stretch Denim Look Slim Fit Pencil Leg Soft Smooth Fabric Trousers Casual Everyday Style Comfortable Fit Easy To Match For Daily Wear Work Office** — SKU `CJ-2120411676647690242`, cost $10.54, suggested retail $15.81, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/7d282491-da4a-4bc2-9f85-81eb34942b6a.jpg
-- **New Women’s Fashionable Casual Jeans, Tight Fitting Ripped Jeans, High Waisted Jeans** — SKU `CJ-1966039676564447234`, cost $20.50, suggested retail $30.75, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/e093b11f-1202-4080-9891-bbf1b3297ae9.jpg
-- **New Women’s Wide Leg Jeans, Autumn And Winter Outfits, Straight Leg Jeans, Mid Rise Jeans** — SKU `CJ-1966041047384494082`, cost $20.50, suggested retail $30.75, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/57594c2e-c2b9-4e99-835b-e913e89a83fc.jpg
-- **Women's Printed Jeans** — SKU `CJ-1920435678372614145`, cost $2.78, suggested retail $4.17, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/d5750aaf-bc15-4f20-8b65-de89ddf35565.png
-- **Spliced Workwear Jeans** — SKU `CJ-2017145487079931905`, cost $6.28, suggested retail $9.42, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/bed0ed61-89a0-44d4-9cf8-5a6b22929f78.png
-- **Women's Printed Jeans** — SKU `CJ-1920434859099213825`, cost $2.78, suggested retail $4.17, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/2df45ce2-b88e-4ed5-bb5f-943c5c73b444.png
-- **Women's Printed Polyester Jeans** — SKU `CJ-1914966372799315969`, cost $6.01, suggested retail $9.02, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/3e75ab5d-a271-4f67-a85f-54fc2b650b76.png
-- **Fashionable Casual Women's Jeans** — SKU `CJ-1975450971593482242`, cost $4.09, suggested retail $6.14, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/715a73e3-c658-4fb7-81eb-825bdadb3565.jpg
-- **Skinny Stretch Feet Pants Jeans** — SKU `CJ-2507220234201616300`, cost $7.46, suggested retail $11.19, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/18f2428a-4b3e-4dc6-b540-f2efff63a48e.jpg
-- **Women's High Waisted Loose Jeans** — SKU `CJ-2503130223201603200`, cost $8.29, suggested retail $12.43, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2025/03/13/02/9563a7b3-8c85-4142-af30-30841a1ea576.jpg
-- **Slim-fit Flared Casual Jeans** — SKU `CJ-2002996394954108930`, cost $4.20, suggested retail $6.30, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/d3d041ae-dce4-4b83-8d43-79bb5631ae1e.png
-- **Women Vintage Washed Slim Flare Denim Jeans Versatile Long Denim Pants For Autumn Outdoor Travel Casual Outfits** — SKU `CJ-2083108225200930817`, cost $18.16, suggested retail $27.24, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17854560/81985d8a-f1cd-42b3-a4c5-5fd95afed0e5.jpg
-- **Women Mid Waist Drawstring Elastic Waist Cropped Barrel Denim Jeans Loose Fit Pants** — SKU `CJ-2114629791810912258`, cost $9999.99, suggested retail $14999.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17929728/64220491-1b2f-40b8-adc9-2ebfd0417f55.jpg
-- **Women Embroidery Back Pocket Bootcut Jeans Stretch Denim Pants Slim Fit Flare Jeans Vintage Style Wholesale Ready Stock** — SKU `CJ-2097984875801190402`, cost $19.78, suggested retail $29.67, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/f77b34f2-4611-4f99-9218-7578f4051f24.png
-- **Black Flare Jeans Women Vintage Washed Contrast  Denim Pants Retro Style US Warehouse** — SKU `CJ-2100129347911340033`, cost $19.45, suggested retail $29.17, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/66f2d3eb-12b6-442d-925e-61718a1e6d83.jpg
-- **High Waist Distressed Skinny Jeans For Women, Dark Blue Multi Ripped Stretch Denim Trousers** — SKU `CJ-2096882940665434114`, cost $18.39, suggested retail $27.59, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17887392/38da92cf-29ce-4c1f-b500-c721f7ac4630.jpg
-- **Layered Panel Cargo Jeans Women Grey Wide Leg Statement Denim Pants US Local Inventory** — SKU `CJ-2100132937853882369`, cost $22.57, suggested retail $33.86, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/25ddc750-c152-4fe5-b31d-2bad3501aa48.jpg
-- **Slim-fit Flared Casual Jeans** — SKU `CJ-2002923088199835650`, cost $4.20, suggested retail $6.30, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/80b3bda3-909d-4850-82bd-eb898597967f.png
-- **Women's Casual Fashion Loose Jeans** — SKU `CJ-1970387479389052930`, cost $4.74, suggested retail $7.11, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/de903fc2-f200-4360-b351-a8766ba7eccf.png
-- **Women's High Waist Stretch Jeans** — SKU `CJ-2505100823231628700`, cost $10.78, suggested retail $16.17, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/cf182734-4bd5-4e1a-adf0-023b512e8194.jpg
-- **Slim-fit Flared Casual Jeans** — SKU `CJ-2000439743278383106`, cost $4.97, suggested retail $7.46, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/80b3bda3-909d-4850-82bd-eb898597967f.png
-- **High-waisted Straight-leg Jeans** — SKU `CJ-1933347088814309378`, cost $4.17, suggested retail $6.26, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/2b06a7d4-3d87-40de-9b56-7675dadb86ce.png
-- **Slim-fit Flared Casual Jeans** — SKU `CJ-1993653668279664642`, cost $4.00, suggested retail $6.00, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/80b3bda3-909d-4850-82bd-eb898597967f.png
-- **CasuGlow Casual Straight Leg Jeans** — SKU `CJ-1940339161110241282`, cost $4.90, suggested retail $7.35, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2025/07/02/10/2ee723ee-f21d-4810-8001-b6b8aeb64f5b.jpg
+- **Shirts Women Long Sleeve Blouse Sexy** — SKU `CJ-1467051139034910720`, cost $7.04, suggested retail $10.56, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/a04c8d32-6ab4-48a8-8a9f-33415486a42c.jpg
+- **Striped V Neck Ruffle Long Sleeve Blouse, Elegant Puff Cuff Work Shirts For Women** — SKU `CJ-2075088320496066561`, cost $5.23, suggested retail $7.85, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/66f0c93b-c688-4af9-8b02-76f029ab68cf.png
+- **Ladies' Solid-colored Shirts** — SKU `CJ-1917153664418947074`, cost $4.09, suggested retail $6.14, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/4f4d748c-d443-4f0c-adbc-824327af563b.png
+- **Long And Simple Casual Shirts Can Be Worn In Four Seasons.** — SKU `CJ-1906371553660665858`, cost $14.50, suggested retail $21.75, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/0eaea9b6-9b98-4086-89b0-616f1a142f33.jpg
+- **Summer Striped Short-Sleeve Shirts Casual Stand-Collar V-neck Button Blouse Womens Clothing** — SKU `CJ-2604030628521636100`, cost $4.70, suggested retail $7.05, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/05/05/08/6202e1fa-c178-413a-a817-d71a3d3f796a.jpg, chart: 2XL $7.05
+- **Women's Long-Sleeved Shirts** — SKU `CJ-1981907297914765313`, cost $2.61, suggested retail $3.92, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/03ae1e3c-30c0-4121-b22d-63690ad97393.png
+- **1 Inch Iron On Heat Transfer Letters And Numbers Alphabets Fabric Vinyl Letter DIY For Sport Jerseys T Shirts Clothes Slogan Printing** — SKU `CJ-2097021142918553601`, cost $2.50, suggested retail $3.75, Candles, pic: yes, US warehouse: yes, img: https://xffbbhangzhou.oss-cn-hangzhou.aliyuncs.com/product/0KAART175Z94XVEJQZ5BCF1Y53.jpg
+- **Women Bohemian Peplum Lace Blouse** — SKU `CJ-2102334091157221378`, cost $5.48, suggested retail $8.22, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/9b9dc474-bc65-4361-8e8d-cdcd84ff3223.png
+- **Retro Apricot Polka Dot Blouse Women** — SKU `CJ-2511300805591634600`, cost $6.14, suggested retail $9.21, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/a64a12d5-f274-43b9-b663-c5eb2578eeee.jpg
+- **Simple Boat-neck Blouse For Women** — SKU `CJ-2601040721251623300`, cost $4.53, suggested retail $6.80, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/f2ad1ed4-e760-4a61-9b38-8517695b9015.jpg, chart: 2XL $6.80
+- **Women Clothes Women's Casual Office Blouse** — SKU `CJ-1900020639109451777`, cost $3.27, suggested retail $4.91, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/fa464b20-beb1-4d39-b015-103ac6b71774.jpg
+- **Bohemian Printed V-Neck Blouse For Women** — SKU `CJ-2057299554147069954`, cost $4.12, suggested retail $6.18, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/829cc499-719e-46df-8a70-967313bdd334.png
+- **Loose-fit Chic Chiffon Blouse For Women** — SKU `CJ-2604240954511623300`, cost $6.62, suggested retail $9.93, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/ae3c512f-67c8-4eb2-9dbc-ed4021a260b3.jpg, chart: 2XL $9.93
+- **Loose-fit Sleeveless Shirt Blouse For Women** — SKU `CJ-2605270513091629400`, cost $4.36, suggested retail $6.54, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/ce7ac048-650e-4118-89f1-06f78cadf0af.jpg
+- **Elegant Off-Shoulder Floral Jacquard Blouse For Women** — SKU `CJ-2512010510241625400`, cost $9.62, suggested retail $14.43, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/90281864-bbce-4af7-b481-e6d8d46a8e7a.jpg, chart: 2XL $14.43
+- **Summer Casual Polyester Short-sleeved Blouse For Women** — SKU `CJ-1903376662984437761`, cost $2.29, suggested retail $3.44, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/f8a2618a-54ff-41bf-b02c-1b9e902cc53f.png
+- **Lantern-sleeve Loose-fitting Versatile Blouse For Women** — SKU `CJ-2605270327331602000`, cost $6.30, suggested retail $9.45, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/d14f0723-beb9-49d6-8306-83d4a62e9a98.jpg, chart: 2XL $9.45
+- **Scoop-neck Metal-decorated Sleeveless Linen Blouse For Women** — SKU `CJ-2605230307521617200`, cost $5.31, suggested retail $7.97, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/3e32860b-29ac-4db6-99b2-cb631da12e93.jpg, chart: 2XL $7.97
+- **Women Ruffle Trim Tie Front Leopard Print Chiffon Blouse** — SKU `CJ-2089635694118862849`, cost $6.00, suggested retail $9.00, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/1ea98c32-e843-418c-b8f8-8801fb1eb9e6.jpg
+- **Loose-fit Ruffled Three-quarter-sleeve Blouse For Women** — SKU `CJ-2605131255521616600`, cost $4.36, suggested retail $6.54, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/26c6ecec-0b73-4065-a8f1-d92e8f2a80de.jpg
+- **Off-shoulder Elegant Long-sleeve Chiffon Blouse For Women** — SKU `CJ-2605160752401617600`, cost $7.45, suggested retail $11.18, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/948dc8e9-5535-4bbe-b9de-95ff84e8638f.jpg
+- **Color Cross Tie Cuff Simple Long Sleeve Blouse Women Shirt** — SKU `CJ-1898981019231678466`, cost $3.92, suggested retail $5.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/1ac85be3-0b68-47d8-a367-9971cc975919.png
+- **Elegant V-neck Buttoned Long-sleeve Velvet Blouse For Women** — SKU `CJ-2606160307141603000`, cost $5.64, suggested retail $8.46, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/608a4d8a-90ae-4ca7-90ec-198256328a7e.jpg, chart: 2XL $8.46
+- **Women Contrast Polka Dot Print Casual Cold Shoulder Halter Blouse** — SKU `CJ-1900018565579771906`, cost $2.61, suggested retail $3.92, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/e6635107-bc01-4d49-a7a2-1c4fc528d85e.jpg
+- **Elegant Embroidered Lace Blouse For Sophisticated Ladies In Spring And Autumn** — SKU `CJ-2602240911411638400`, cost $6.97, suggested retail $10.46, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/quick/product/a10315ce-1e80-40b1-9399-f49a9e45f88f.jpg
+- **Blouse** — SKU `CJ-1677230587129634816`, cost $8.17, suggested retail $12.26, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/950c620f-7de2-464a-8ff8-7c30f793af41.jpg
+- **Polyester Blouse** — SKU `CJ-2609140236521610000`, cost $6.60, suggested retail $9.90, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/09/14/02/86cc9cb4-c9ee-465f-8ff3-6c6af8d1810a.jpg
+- **Polyester Blouse** — SKU `CJ-2607300310281609300`, cost $5.98, suggested retail $8.97, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/07/30/03/971c5b83-1c02-4291-a80a-97ee0db6b70d.jpg, chart: 2XL $8.97
+- **Polyester Blouse** — SKU `CJ-2608030809481613200`, cost $6.60, suggested retail $9.90, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/08/03/08/76eb695a-a8a3-4d13-9dcf-368013892ecb.jpg
+- **Lady's Blouse** — SKU `CJ-2608221219391605400`, cost $6.08, suggested retail $9.12, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/08/22/12/4aaa32c3-53a5-493a-bce7-dd52a9024140.jpg
+- **Polyester Blouse** — SKU `CJ-2607301120041617700`, cost $9.74, suggested retail $14.61, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/07/30/11/1bff2eae-c690-4049-9509-4f92f9753416.jpg
+- **Polyester Blouse** — SKU `CJ-2609100654161604900`, cost $15.62, suggested retail $23.43, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/09/10/06/e29653c6-02fe-4203-bb33-ab1e20431f27.jpg, chart: 2XL $23.43
+- **Polyester Blouse** — SKU `CJ-1981195738588405762`, cost $4.70, suggested retail $7.05, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/fcc11a18-7633-4701-aeaf-f305273a9f1d.jpg
+- **Polyester Blouse** — SKU `CJ-1972898160216563713`, cost $3.11, suggested retail $4.67, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/d963fcb9-d4b1-4885-b1e8-eceaf6ce714d.png
+- **Lady's Blouse** — SKU `CJ-2609080312131606200`, cost $7.81, suggested retail $11.72, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/09/08/03/182010ae-ffc6-4faa-b4e2-dd6dbf99f145.jpg
+- **Polyester Blouse** — SKU `CJ-2607310321441629600`, cost $6.50, suggested retail $9.75, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/07/31/03/0169612f-d0f8-4c63-b66e-e20769ee3d8b.jpg, chart: 2XL $9.75
+- **Lady's Blouse** — SKU `CJ-2609080706271610200`, cost $6.08, suggested retail $9.12, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/09/08/07/b8059ee7-d4a2-4e5c-89a5-4d7901ac44b2.jpg
+- **Polyester Blouse** — SKU `CJ-2609140910271608300`, cost $6.08, suggested retail $9.12, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/09/14/09/59bdc2fc-ded2-4968-b459-29c71b4d132f.jpg, chart: 2XL $9.12, 3XL $9.12
+- **Polyester Blouse** — SKU `CJ-2607300237471638300`, cost $5.98, suggested retail $8.97, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/07/30/02/237617f5-a511-4ddf-a6e7-cb4af494d7b2.jpg, chart: 2XL $8.97
+- **Polyester Blouse** — SKU `CJ-2607310257141618800`, cost $6.50, suggested retail $9.75, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/07/31/02/da63d8b7-bfb1-437c-83ac-adc5b01cac7a.jpg
+- **Lady's Blouse** — SKU `CJ-2610160044011639000`, cost $8.68, suggested retail $13.02, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/10/16/00/5e6b8680-8027-4e26-bf40-100a7e2992b1.jpg
+- **Lady's Blouse** — SKU `CJ-2609290153591603200`, cost $5.56, suggested retail $8.34, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/09/29/01/1d73ad2e-6c86-4b92-9793-7a31601158b8.jpg
+- **Polyester Blouse** — SKU `CJ-2609090709591605000`, cost $6.08, suggested retail $9.12, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/09/09/07/995910dc-90b3-4767-a224-c0188d104d31.jpg
+- **Lady's Blouse** — SKU `CJ-2610081335001629900`, cost $6.60, suggested retail $9.90, Candles, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/10/08/13/ee06f669-4fc6-4760-ab4a-ff89d5d06047.jpg
 
 ## Skipped
 
-- `CJ-2510030302011619200` — probe filter: excluded term "overall" in name "European And American Hooded Overall Jeans Women"
-- `CJ-1981259546472243201` — already in products.json
-- `CJ-2096882576389234689` — already in products.json
-- `CJ-2503241024151619200` — already in products.json
-- `CJ-2510290236561618400` — already in products.json
-- `CJ-2098224726430470145` — already in products.json
-- `CJ-2097987372808773633` — already in products.json
-- `CJ-2097969442207358978` — already in products.json
-- `CJ-2603170745501608400` — already in products.json
-- `CJ-2097936505443295234` — already in products.json
-- `CJ-2097931190932697090` — already in products.json
-- `CJ-1933348528343924737` — probe filter: excluded term "men" in name "Women Men Denim Pants Casual Ripped Loose Straight Leg Jeans Trousers"
-- `CJ-1966759838463066113` — probe filter: excluded term "legging" in name "Ladies' Ripped Tassel Jeans, Fashionable And Personalized Street Style Denim Pants, Pencil Pants, And Leggings"
-- `CJ-1780474854504935424` — probe filter: excluded term "overall" in name "Y2K Zipper Denim Overalls With Pockets Fashion Loose Suspender Jumpsuit Streetwear Jeans Pants Womens Clothing"
-- `CJ-2017434478320713729` — probe filter: excluded term "dress" in name "Black 100cm Womens Genuine Leather Dress Belt Classic Casual Belt With Single Prong Buckle For Jeans Pants Work And Business"
-- `CJ-1966060319989211138` — probe filter: excluded term "shorts" in name "Women's Denim Shorts, Three-quarter Length Jeans, Distressed Jeans, Frayed Hem Jeans"
+- `CJ-1976220195377815554` — probe filter: excluded term "top" in name "Women Summer Shirts Tops Loose Short Sleeve T Shirts Casual Floral"
+- `CJ-2512110752501614000` — probe filter: excluded term "top" in name "Elegant Velvet Long Sleeve Shirts For Women Autumn Winter Solid Color Loose Women Blouses Fashion Pullover Tops Party Clothes"
+- `CJ-2511250959481610400` — probe filter: excluded term "top" in name "Elegant Velvet Long Sleeve Shirts For Women Fall Spring Solid Color Loose Women Blouses Fashion Pullover Tops Party Clothes"
+- `CJ-2506040812531618500` — probe filter: excluded term "top" in name "V-neck Hooded Shirt With Pockets Fashion Sports Long-sleeved Split Shirts Tops For Women Clothing"
+- `CJ-1866423513851514880` — probe filter: excluded term "top" in name "Women Fashion Casual Shirts Solid Color 3 4 Sleeve Round Neck Blouses Summer Loose Tops Streetwear"
+- `CJ-2603310909491617400` — probe filter: excluded term "top" in name "Solid Casual Loose Blouses For Women Fashion Summer Vintage Women's Oversized Shirts And Blouses Elegant Youth Female Tops"
+- `CJ-2512120342321628400` — probe filter: excluded term "top" in name "Women's Fashion Sequins Long Sleeve Blouses Casual Solid Long Sleeve Turn-down Collar Button Shirts Top Women Holiday Streetwear Clubwear Clothes"
+- `CJ-2605110543571601900` — probe filter: excluded term "top" in name "Square-Neck Tank Top Summer Women's Casual Sleeveless Shirts"
+- `CJ-1906375686043750402` — probe filter: excluded term "dress" in name "Long-sleeved Casual Shirts And Dresses With Multiple Wear Methods."
+- `CJ-1912101104401666050` — probe filter: excluded term "top" in name "Casual Loose Long Sleeve Polo Shirts Tops For Spring"
+- `CJ-1753323810469711872` — probe filter: excluded term "top" in name "Commuter V-neck Long-sleeved Shirts Ins Fashion Solid Color Pullover Top Autumn And Spring Women's Clothing"
+- `CJ-2505250240391601500` — probe filter: excluded term "top" in name "Women's Swing Collar Draped Shirts & Blouses Elegant Solid Satin Office Ladies Top Pullover Spring Long Sleeve Casual Tops"
+- `CJ-2604060207081601500` — probe filter: excluded term "top" in name "Summer Ruffled-Sleeve Top Loose Casual V-Neck Buttons Short-sleeved Shirts Women's Clothing"
+- `CJ-2505101229431600900` — probe filter: excluded term "men" in name "Men's Short-Sleeved Button-Down Shirt Summer Slim-Fit Lapel Shirts Casual Beachwear Clothing"
+- `CJ-2039163915884163074` — probe filter: excluded term "top" in name "Fisoew Womens Oversized T Shirts Casual Sleeve Side Slit Workout Gym Loose Fit Summer Tee Tunic Tops"
+- `CJ-2037073784522190849` — probe filter: excluded term "top" in name "Fisoew Womens Long Sleeve Crop Tops Loose Fit Crew Neck Cropped T Shirts 2025 Casual Workout Tee Shirt Tops"
+- `CJ-1764951871065694208` — probe filter: excluded term "top" in name "Fashionable Loose Chiffon Blouse Top For Women"
+- `CJ-1912462726910201858` — probe filter: excluded term "top" in name "Women Casual Solid Color Long Sleeve Blouse Women Shirt,Long Sleeve Tops"
 
 ## What still needs Diana
 
