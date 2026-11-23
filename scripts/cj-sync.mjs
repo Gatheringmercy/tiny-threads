@@ -281,17 +281,18 @@ function mapProduct(detail, listItem, runTag) {
   }
   if (prices.length === 0 || !nameEn) return null;
 
-  const min = Math.min(...prices);
+  // Mercy's rule (2026-11-23): one price, no ranges — price every size the
+  // same as the most expensive variant (the large). That's how it's done in
+  // the US; a range looks like ordering from Asia.
   const max = Math.max(...prices);
-  const price = min === max ? money(min) : `${money(min)}-${money(max)}`;
-  const retail = min === max ? money(min * 1.5) : `${money(min * 1.5)}-${money(max * 1.5)}`;
+  const price = money(max);
+  const retail = money(max * 1.5);
 
   const { dept, cat } = mapDept(nameEn, detail.categoryName || listItem.threeCategoryName || '');
   const img = detail.bigImage || listItem.bigImage || '';
   const usStock = variants.length > 0 || (listItem.warehouseInventoryNum ?? 0) > 0;
 
   const notes = ['CJ sync test import — review before live.'];
-  if (min !== max) notes.push(`Price varies by size/colour ($${price}).`);
   if (!usStock) notes.push('US stock not confirmed at variant level — verify before live.');
 
   return {
@@ -300,7 +301,7 @@ function mapProduct(detail, listItem, runTag) {
     dept,
     // Flag the cheapest items for the Discount / Blowout section, same
     // pattern as the hand-added items (lowest-priced items flagged).
-    discount: min <= 8,
+    discount: max <= 8,
     has_pic: Boolean(img),
     img,
     name: nameEn,

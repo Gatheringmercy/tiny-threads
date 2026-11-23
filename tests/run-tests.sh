@@ -25,6 +25,7 @@ CODE=$?
 [ "$CODE" -eq 0 ] && ok "dry run exits 0" || bad "dry run exit code $CODE: $OUT"
 cmp -s /tmp/cj-test/products.json /tmp/cj-test/products.before.json && ok "dry run leaves products.json untouched" || bad "dry run changed products.json"
 grep -q "Cute Cotton Baby Onesie Bodysuit" /tmp/cj-test/report.md && ok "report lists the onesie" || bad "report missing onesie"
+grep -q "img: https://cf.cjdropshipping.com/quick/product/onesie-1001.jpg" /tmp/cj-test/report.md && ok "report lists the onesie image URL" || bad "report missing onesie image URL"
 grep -q "bulk-pack name" /tmp/cj-test/report.md && ok "report shows bulk-pack skip (12Pcs socks)" || bad "report missing bulk skip"
 grep -q "minimum order 5" /tmp/cj-test/report.md && ok "report shows MOQ skip (romper)" || bad "report missing MOQ skip"
 grep -q "already in products.json" /tmp/cj-test/report.md && ok "report shows duplicate skip (striped jumpsuit)" || bad "report missing duplicate skip"
@@ -57,8 +58,8 @@ for (const p of products) {
   assert(typeof p.price_ok === "boolean", `price_ok is boolean on ${p.sku}`);
 }
 const onesie = products.find(p => p.sku === "CJ-1001");
-assert(onesie.price === "6.50-7.25", `onesie price range is 6.50-7.25 (got ${onesie.price})`);
-assert(onesie.retail === "9.75-10.88", `onesie retail range is 9.75-10.88 (got ${onesie.retail})`);
+assert(onesie.price === "7.25", `onesie price is the large-size price 7.25 (got ${onesie.price})`);
+assert(onesie.retail === "10.88", `onesie retail is the large-size price 10.88 (got ${onesie.retail})`);
 assert(onesie.dept === "Onesies & Rompers", `onesie dept is Onesies & Rompers (got ${onesie.dept})`);
 assert(onesie.discount === true, "onesie flagged discount (cheapest)");
 assert(onesie.url === "https://cjdropshipping.com/product/cute-cotton-baby-onesie-bodysuit-p-1001.html", `onesie URL shape (got ${onesie.url})`);
