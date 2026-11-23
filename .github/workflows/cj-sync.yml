@@ -33,6 +33,11 @@ on:
         type: boolean
         required: false
         default: false
+      keywords:
+        description: 'Comma-separated keywords; empty = default baby keywords'
+        type: string
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -48,12 +53,10 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v4
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - name: Run CJ sync
         env:
           CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
@@ -61,8 +64,11 @@ jobs:
         run: |
           ARGS="--max ${{ inputs.max_products || '10' }}"
           if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
-          node scripts/cj-sync.mjs $ARGS
-
+          if [ -n "${{ inputs.keywords }}" ]; then
+            node scripts/cj-sync.mjs $ARGS --keywords "${{ inputs.keywords }}"
+          else
+            node scripts/cj-sync.mjs $ARGS
+          fi
       - name: Commit updated products (if anything changed)
         run: |
           git config user.name "muse-cj-sync"
