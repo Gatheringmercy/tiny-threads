@@ -1,76 +1,110 @@
 # CJ sync report
 
-- Run: 2026-11-23T21:15:56.467Z (DRY RUN — nothing written)
-- Keywords: electric roaster oven, turkey roasting pan, roaster oven, electric roaster, turkey roaster, roasting pan
-- Added: 27 (cap: 100) — Skipped: 23 — Already in file: 28
+- Run: 2026-11-23T21:30:14.432Z (DRY RUN — nothing written)
+- Keywords: chafing dish, chafing dish buffet set, cookware set, pots and pans set, 12-piece cookware set, frying pan set, stainless steel cookware set
+- Added: 37 (cap: 100) — Skipped: 46 — Already in file: 28
 
-## Probe filter summary (roaster probe)
+## Probe filter summary (chafing and cookware sets probe)
 
-- Total results returned by CJ across 6 keywords: 120
-  - "electric roaster oven": 20 results
-  - "turkey roasting pan": 20 results
-  - "roaster oven": 20 results
-  - "electric roaster": 20 results
-  - "turkey roaster": 20 results
-  - "roasting pan": 20 results
-- Filtered out by name: 20 (no kept term candle/wax/soy: 20; excluded term LED/flameless/electric/holder/warmer/lamp/fake: 0)
-- Name filter kept: 100 results for further checks (bulk, image, details)
+- Total results returned by CJ across 7 keywords: 140
+  - "chafing dish": 20 results
+  - "chafing dish buffet set": 20 results
+  - "cookware set": 20 results
+  - "pots and pans set": 20 results
+  - "12-piece cookware set": 20 results
+  - "frying pan set": 20 results
+  - "stainless steel cookware set": 20 results
+- Filtered out by name: 21 (no kept term candle/wax/soy: 0; excluded term LED/flameless/electric/holder/warmer/lamp/fake: 21)
+- Name filter kept: 119 results for further checks (bulk, image, details)
 
 ## Added
 
-- **Electric Roaster Oven, 22 Qt, Turkey Roasting Pan, White, 1450W Power, Viewing Self-Basting Lid, 150-450°F Heat Control, Countertop Turkey Cooker with Defrost/Warm, Removable Pan and Rack** — SKU `CJ-2120070069755113474`, cost $59.21, suggested retail $88.82, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/f8758e7d-5eb7-4d05-aa88-cc02b026a973.jpg
-- **Electric Roaster Oven, 24 Qt, Turkey Roasting Pan, Red, 1450W Power, Viewing Self-Basting Lid, 150-450°F Heat Control, Countertop Turkey Cooker with Defrost/Warm, Removable Pan and Rack** — SKU `CJ-2120077821848121346`, cost $63.77, suggested retail $95.66, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/be77b6d1-2e50-4165-ab9e-1a4aa688a5c8.jpg
-- **Electric Roaster Oven, 20 Qt, Turkey Roasting Pan, Black, 1450W Power, Viewing Self-Basting Lid, 150-450°F Heat Control, Countertop Turkey Cooker with Defrost/Warm, Removable Pan and Rack** — SKU `CJ-2120076752574164994`, cost $56.17, suggested retail $84.26, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/de409892-1fa0-436e-aea5-b588277a02c0.jpg
-- **Electric Roaster Oven, 22 Qt 1450W, Turkey Roasting Pan, Viewing Self-Basting Lid, 150-450°F Adjustable Heat, Countertop Turkey Cooker with Defrost and Warm Functions, Removable Pan and Rack** — SKU `CJ-2120057419881050113`, cost $59.21, suggested retail $88.82, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/9282e359-87a2-44c6-a26b-44450ff104dc.jpg
-- **Electric Roaster Oven, 22 Qt 1450W, Turkey Roasting Pan, Metal Self-Basting Lid, 150-450°F Adjustable Heat, Countertop Turkey Cooker with Defrost and Warm Functions, Removable Pan and Rack** — SKU `CJ-2120085892063244289`, cost $57.59, suggested retail $86.39, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/543dad1c-5c25-4ffd-8763-462fcca06374.jpg
-- **Electric Roaster Oven, 26 Qt, Turkey Roasting Pan, White, 1450W Power, Viewing Self-Basting Lid, 150-450°F Heat Control, Countertop Turkey Cooker with Defrost/Warm, Removable Pan and Rack** — SKU `CJ-2120054839051235330`, cost $66.81, suggested retail $100.22, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/25da46c4-7cf4-4130-80ee-1495d772642b.jpg
-- **Electric Roaster Oven, 26 Qt 1450W, Turkey Roasting Pan, Viewing Self-Basting Lid, 150-450°F Adjustable Heat, Countertop Turkey Cooker with Defrost and Warm Functions, Removable Pan and Rack** — SKU `CJ-2120085653281218562`, cost $66.81, suggested retail $100.22, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/830c4695-cb00-4534-ac68-c25eca095b7c.jpg
-- **Electric Roaster Oven, 18 Qt, Turkey Roasting Pan, Black, 1450W Power, Metal Self-Basting Lid, 150-450°F Heat Control, Countertop Turkey Cooker with Defrost/Warm, Removable Pan and Rack** — SKU `CJ-2120066362959896578`, cost $52.37, suggested retail $78.55, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/1543ad1b-0f02-44f1-9a53-29d40dd5a8c5.jpg
-- **Electric Roaster Oven, 20 Qt 1450W, Turkey Roasting Pan, Metal Self-Basting Lid, 150-450°F Adjustable Heat, Countertop Turkey Cooker with Defrost and Warm Functions, Removable Pan and Rack** — SKU `CJ-2120075898935898114`, cost $55.41, suggested retail $83.12, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/b761e068-ebe5-4278-a61e-f7207dea7890.jpg
-- **Electric Roaster Oven, 24 Qt 1450W, Turkey Roasting Pan, 3 Food Trays, Buffet Server, Self-Basting Lid, 150-450°F Heat Control, Countertop Turkey Cooker with Roasting, Warming and Removable Rack** — SKU `CJ-2120061074919190530`, cost $68.33, suggested retail $102.50, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/3c0a9731-15b2-4890-91de-442b60b9f3f2.jpg
-- **Countertop Vertical Rotating Oven 15 lbs Rotisserie Shawarma Machine, for Chicken Beef Mutton Pork, LPG Heating, Stainless Steel Body Grill Roaster, Dual-Zone Heat Control, Meat Catcher** — SKU `CJ-2120089098491211778`, cost $103.99, suggested retail $155.98, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/246f0456-ead4-41e1-ac77-8dead2dba957.jpg
-- **Rotisserie Oven Large Capacity 12L Shawarma Grill Machine 1250W, for Chicken, Beef Ribs, Lamb Leg, Grilled Vegetables, Countertop Grill Roaster with Heat-Resistant Door and Timer Control** — SKU `CJ-2120061888480882689`, cost $105.59, suggested retail $158.39, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/e3a4a3d4-494b-4a11-b9ad-fb9affedd1b9.jpg
-- **High-Temperature Resistant Chicken Roasting Pan Heat-Resistant Fried Chicken Tray For Oven Baking** — SKU `CJ-1956626359838179330`, cost $53.11, suggested retail $79.66, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/f50bc8f1-5303-4196-b558-794e22e97ca3.png
-- **12 Inch Tissue Turkey Centerpiece Thanksgiving Decorations** — SKU `CJ-2110498883615457282`, cost $35.55, suggested retail $53.33, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/eea20214-b491-4380-9b52-671e02914822.png
-- **Happy Thanksgiving Door Sign, Thanksgiving Turkey Pumpkin Decorations** — SKU `CJ-2110097031335948290`, cost $39.99, suggested retail $59.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/58a24429-e16e-4d63-9299-c360132522b2.png
-- **Thanksgiving Pillow Covers 18x18 Inch Soft Turkey Pillowcases Turkey Thanksgiving Decorations For Home Indoor Xmas Pillowcase For Farmhouse Indoor** — SKU `CJ-2115532577916665857`, cost $57.77, suggested retail $86.66, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/06a45986-7fc2-4bdb-b0db-93e28bcfb7d3.png
-- **Happy Thanksgiving Door Sign, Turkey & Pumpkin Fall Decorations** — SKU `CJ-2110830505224912897`, cost $59.99, suggested retail $89.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/77c87b8b-e24a-4054-8e08-e640608052c6.jpg
-- **5ft Thanksgiving Inflatable LED Lighted Turkey With Colorful Tail** — SKU `CJ-2110095716103131137`, cost $119.99, suggested retail $179.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/853f99d1-2fe7-4c0c-994a-53cf1ea9e203.png
-- **10FT Turkey String Lights, 20 LED Battery-Operated Thanksgiving Decor** — SKU `CJ-2110790479181172738`, cost $89.99, suggested retail $134.98, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/41e6072b-edbb-41ed-842f-ad6c1de56ea7.jpg
-- **Rotisserie Grill, 38W BBQ Outdoor Pig & Lamb Spit Roaster, Charcoal Spit Roaster With 132 LBS Capacity, Wheels & 4-Level Height, Stainless Steel Electric Rotisserie Grill Kit For Camping Outdoor** — SKU `CJ-2001524544216997890`, cost $247.92, suggested retail $371.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17660160/a5eb9af3-7c88-47eb-9ffc-c5d73f9b8f5f.jpg
-- **Rotisserie Grill 38W BBQ Outdoor Pig & Lamb Spit Roaster, Charcoal Spit Roaster with 132 LBS Capacity, Wheels & 4-Level Height, Stainless Steel Electric Rotisserie Grill Kit for Camping Outdoor** — SKU `CJ-2120051074280779778`, cost $487.92, suggested retail $731.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/e43d9c5e-1756-459a-9404-7d87f94d0060.jpg
-- **Rotisserie Grill, 38W BBQ Outdoor Pig & Lamb Spit Roaster, Charcoal Spit Roaster With 132 LBS Load Capacity & 7-Level Height, Stainless Steel Electric Rotisserie Grill Kit For Camping Outdoor** — SKU `CJ-2001524606698438658`, cost $214.32, suggested retail $321.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17660160/d1c49da4-b81e-4676-b8b6-ad2b4d649422.jpg
-- **Rotisserie Grill, 38W BBQ Outdoor Pig & Lamb Spit Roaster, Charcoal Spit Roaster With 132 LBS Capacity, Wheels & 7-Level Height, Stainless Steel Electric Rotisserie Grill Kit For Camping Outdoor** — SKU `CJ-2001524784475119618`, cost $191.92, suggested retail $287.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17660160/481e765e-abdc-4936-8fef-6ed8969b3c3a.jpg
-- **60kg Lamb Roaster** — SKU `CJ-2090370828531179522`, cost $290.19, suggested retail $435.29, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/giga-import/1fea734b1d164f8992461d49132fbbec.jpg
-- **60kg Lamb Roaster Without Baffle** — SKU `CJ-2090371098279452674`, cost $272.95, suggested retail $409.42, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/giga-import/dce7f206539542ea850a73ace3d344f3.jpg
-- **Rotisserie Grill, 38W BBQ Outdoor Pig & Lamb Spit Roaster, Charcoal Spit Roaster With 132 LBS Capacity, Wheels & 4-Level Height, Stainless Steel Rotisserie Grill Kit For Camping Outdoor Parties** — SKU `CJ-2001526490323722241`, cost $391.92, suggested retail $587.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17660160/f55716b2-57d0-40f8-8134-b6e36ea1805a.jpg
-- **Rotisserie Grill 38W BBQ Outdoor Pig & Lamb Spit Roaster, Charcoal Spit Roaster with 132 LBS Capacity, Wheels & 4-Level Height, Stainless Steel Rotisserie Grill Kit for Camping Outdoor Parties** — SKU `CJ-2120060904383619073`, cost $366.41, suggested retail $549.62, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/a934f5eb-7381-4ba2-9d50-90d147e2308f.jpg
+- **Insulated Food Pan Carrier Stackable Catering Dishbox 81QT Chafing Dish** — SKU `CJ-1992982328194658305`, cost $162.32, suggested retail $243.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/0170494d-0bf1-4512-92da-7a887f6c805f.jpg
+- **Insulated Food Pan Carrier Stackable Catering Dishbox 90L Chafing Dish** — SKU `CJ-1992982393856487425`, cost $155.12, suggested retail $232.68, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/e89ebda0-f8dc-4566-afa3-2c9b61e54de3.jpg
+- **Insulated Food Pan Carrier Stackable Catering Dishbox 120L Chafing Dish** — SKU `CJ-1992982215829254146`, cost $205.52, suggested retail $308.28, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/480c0a57-5553-44bb-b7a6-aa39cc48b3d7.jpg
+- **Insulated Food Pan Carrier Stackable Catering Dishbox 81QT Chafing Dish** — SKU `CJ-1992982271873544193`, cost $152.72, suggested retail $229.08, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/8f3fe425-d2bb-4ab4-a264-a2c10e80932b.jpg
+- **Insulated Food Pan Carrier Stackable Catering Dishbox 90L Chafing Dish** — SKU `CJ-1992982455958028290`, cost $163.12, suggested retail $244.68, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/e20b10e6-cbaa-4d21-9bbf-ce5a06c0a334.jpg
+- **9Qt Rectangle Roll Top Chafing Dish Set With Full-Size Pan Stainless Steel** — SKU `CJ-1992906069656772610`, cost $86.32, suggested retail $129.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/7051b106-fcbc-40af-9264-031a9b90b2c7.jpg
+- **9Qt Rectangle Roll Top Chafing Dish Set With Full-Size Pan Stainless Steel Gold** — SKU `CJ-1992906104045871105`, cost $103.92, suggested retail $155.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/61b42050-0384-451e-b831-ce14aa9d2a07.jpg
+- **12 Piece Ceramic Nonstick Aluminum Cookware Set, Corsair Blue** — SKU `CJ-2119707859934900226`, cost $72.14, suggested retail $108.21, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/8442d00af5cf4b26bac9ef695ef84b47.png
+- **Non-Stick Red Cookware Set, 9 Piece (Shipment from Walmart)** — SKU `CJ-2122248384687816705`, cost $55.38, suggested retail $83.07, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/538a1257318b46e8b88caa49eb2c7855.png
+- **Non-abrasive Stainless Steel Cookware Set With Multifunctional Lids, Suitable For Gas Stoves And Induction Cooktops** — SKU `CJ-2005903974787543041`, cost $48.88, suggested retail $73.32, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/35c3a8dd-7a68-4c11-b73c-ba1444e46e69.jpg
+- **Heat Resistant BPA-Free Silicone Spatula Set, Set Of 5 Kitchen Cooking Utensils For Baking, Mixing & Non Stick Cookware, Dishwasher Safe** — SKU `CJ-2093017428892049409`, cost $32.99, suggested retail $49.49, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/9e51a533-0c62-4349-82df-85a80a3f8ff2.jpg
+- **33-Piece Silicone And Stainless Steel Kitchen Utensil Set, Cooking Spoons, Spatulas, And Gadgets For Nonstick Cookware, Pots, And Pans** — SKU `CJ-2115906034742652930`, cost $114.99, suggested retail $172.49, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/51c79d40-9e78-4a54-b6bb-4388a5416c09.jpg
+- **Kitchen Utensil Set Silicone Cooking Utensils 33 Kitchen Gadgets  Spoons For Nonstick Cookware Silicone And Stainless Steel Spatula Set-Best Kitchen Tools, Useful Pots And Pans Accessories** — SKU `CJ-2102127814457962498`, cost $68.99, suggested retail $103.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/d4dc5e7b-a606-468e-829e-197f0c0520ec.png
+- **22-Piece Non-Stick Cookware Set, 6 Pots & 3 Lids, Removable Handles, Oven & Dishwasher Safe, Includes 28cm Soup Pot, Cream White Aluminum** — SKU `CJ-2123695419836125186`, cost $66.08, suggested retail $99.12, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/a11ae5c9139a410ea06c95e05fec61e1.png
+- **35-Piece Silicone Kitchen Utensil Set With Wooden Handles, Heat-Resistant Cooking Tools Including Grater, Tongs, Spoons, Spatulas, And Turner For Nonstick Cookware** — SKU `CJ-2115877447676329985`, cost $119.99, suggested retail $179.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/ceae5396-402c-489a-a65d-1f616cdfb007.jpg
+- **23-Piece Aluminum Cookware Set, Black Non-Stick Pots and Pans Set with Removable Handles - 7 Pots & 2 Lids, Compatible with Induction, Gas, Electric Stoves, Ideal for Home Kitchen & Outdoor Camping​** — SKU `CJ-2123506773674557442`, cost $65.96, suggested retail $98.94, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/b5f4731847dd44ec82605bc9a3a95978.png
+- **Gold Set B4948, Set** — SKU `CJ-2097019935016910849`, cost $3.70, suggested retail $5.55, Candles, pic: yes, US warehouse: yes, img: https://xffbbhangzhou.oss-cn-hangzhou.aliyuncs.com/product/4F8ZE7YATF9FP9K0BKWFRSQ2JZ.png
+- **White K-color Set 4948, Set** — SKU `CJ-2097019953505402881`, cost $3.70, suggested retail $5.55, Candles, pic: yes, US warehouse: yes, img: https://xffbbhangzhou.oss-cn-hangzhou.aliyuncs.com/product/1888CP669497X8RA7T3BKAW5V6.png
+- **2 Piece Natural Wood Trivet Set, Heat Resistant Hot Dish Holders For Table, Countertop, Pots, Pans And Kitchen Protection** — SKU `CJ-2100283529913331713`, cost $37.99, suggested retail $56.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/c85ffdd0-2738-442f-83f1-511d5c1ecf76.png
+- **33-Piece Khaki Silicone Kitchen Utensil Set With Holder, Nonstick Cooking Spatulas, Spoons, And Wooden-Handle Kitchen Gadgets For Pots And Pans** — SKU `CJ-2115906738873511937`, cost $89.99, suggested retail $134.98, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/2fc8f6d7-a3da-4aa9-8a41-a1834f027ce5.jpg
+- **Holikme Multi-Purpose Dish Brush Set - Green Scrubbing Tools For Pots, Pans & Groove Gaps** — SKU `CJ-2082525859579822081`, cost $24.99, suggested retail $37.49, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/15f43985-38b3-4371-8279-aca952cd4c9c.png
+- **5 Pans + 2 Pots Commercial Food Warmer Steam Table With Undershelf Shield** — SKU `CJ-1992897503316852738`, cost $479.92, suggested retail $719.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/d0d09ea0-9532-452a-8c9a-b83cbfc4233a.jpg
+- **1Pc Pull Out Pots And Pans Organizer Under Cabinet With 8 Adjustable Dividers Rustproof Carbon Steel Sliding Pots Holder For Kitchen Cookware Bakeware Pots Lids Storage** — SKU `CJ-1960970506238738433`, cost $28.74, suggested retail $43.11, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/24f72294-8703-40f0-a065-8c6ba795d8e8.jpg, chart:  $45.93
+- **Women's 3-piece Set-piece Casual Swimsuit KA-P734-12** — SKU `CJ-2054442179256811522`, cost $15.27, suggested retail $22.91, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/d3243884-3549-41ca-8827-869006baa101.png
+- **three-piece set  American garden flags 12*18** — SKU `CJ-2117543743952306177`, cost $1.50, suggested retail $2.25, Candles, pic: yes, US warehouse: yes, img: https://xffbbhangzhou.oss-cn-hangzhou.aliyuncs.com/product/3D1TBYRW1P8DETNP0V6VG9971Y.jpg
+- **Women's 2-piece Casual Swimsuit Set M178** — SKU `CJ-2054116195637559298`, cost $15.59, suggested retail $23.39, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/357dbe1e-3bcb-44cd-ad01-4c2dd6cde406.png
+- **Women's 2-piece Casual Swimsuit Set M118** — SKU `CJ-2053757016915628033`, cost $16.37, suggested retail $24.56, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/7c8d69f1-14d7-4198-a029-edb20f8471f9.png
+- **Women's 2-piece Casual Swimsuit Set M107** — SKU `CJ-2053752520216543234`, cost $16.37, suggested retail $24.56, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/8fb018fc-4889-44b7-8171-9ec5d0113f47.png
+- **Women's 2-piece Casual Swimsuit Set M094** — SKU `CJ-2053743739826450433`, cost $15.59, suggested retail $23.39, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/aef40e81-5fdd-4eeb-a277-7472366806da.png
+- **Women's 2-piece Casual Swimsuit Set M127** — SKU `CJ-2054111551121162242`, cost $16.06, suggested retail $24.09, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/eb8eb894-7870-4805-97f1-8cb4f92b187f.png
+- **Resistance Tube Bands 12 Piece Set With Instruction Booklet** — SKU `CJ-2105359818883657729`, cost $49.99, suggested retail $74.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/b61d4ef6-a79b-4265-b862-e7fdb7e91a99.png
+- **12 Piece Comforter Set With Cotton Bed Sheets Black Queen** — SKU `CJ-1891303392501952513`, cost $163.09, suggested retail $244.64, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/94072bc8-adeb-49aa-be21-35eab6adaf72.png
+- **12 Piece Comforter Set With Cotton Bed Sheets Black Full** — SKU `CJ-1891302241962422273`, cost $157.42, suggested retail $236.13, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/4089397b-d74b-4a4c-8ad9-34742c5d6d9b.png
+- **Baking Pan Set 3-Piece Nonstick Carbon Steel Bakeware Set With Silicone Handle** — SKU `CJ-1908182375194882050`, cost $15.99, suggested retail $23.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/9720104e-1f67-445c-b201-d85a4963d4c8.jpg
+- **Baking Pan Set 3-Piece Nonstick Carbon Steel Bakeware Set With Silicone Handle** — SKU `CJ-1992911734133145601`, cost $18.39, suggested retail $27.59, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/b3cf2654-9e63-41c2-957a-9b74d3ed11d2.jpg
+- **18x16 In Flat Top Griddle Stainless Steel Universal BBQ Grill Pan Cookware** — SKU `CJ-1992872199906422786`, cost $42.32, suggested retail $63.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/bcaa0dea-f7c5-4ae0-951c-bf0ad1160df7.jpg
+- **36x22 In Flat Top Griddle Stainless Steel Universal BBQ Grill Pan Cookware** — SKU `CJ-1957411165951791106`, cost $87.92, suggested retail $131.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/49f893c2-efca-4fe6-954b-b92c52b2e5cb.jpg
 
 ## Skipped
 
-- `CJ-1992866407288061953` — probe filter: name has no kept term (candle/wax/soy): "12' Outdoor Pizza Oven Portable Pellet/Gas Pizza Oven  For Camping"
-- `CJ-1879361320056946689` — probe filter: name has no kept term (candle/wax/soy): "Black Smoked Charcoal Oven"
-- `CJ-1992866371292545025` — probe filter: name has no kept term (candle/wax/soy): "12' Outdoor Pizza Oven Portable Gas Oven Iron Spray  For Camping"
-- `CJ-2118820478228414466` — probe filter: name has no kept term (candle/wax/soy): "Wood Fired Pizza Oven"
-- `CJ-1992866447992070146` — probe filter: name has no kept term (candle/wax/soy): "12' Outdoor Pizza Oven Portable Wood Pellet Pizza Oven Iron Spray Camping"
-- `CJ-2117530202214023170` — probe filter: name has no kept term (candle/wax/soy): "Oven mat, fiberglass oven mat, microwave mat, high-temperature resistant barbecue mat"
-- `CJ-1925788057298722817` — probe filter: name has no kept term (candle/wax/soy): "Carbon Oven Ceramic 13in Round"
-- `CJ-1904819947700588546` — probe filter: name has no kept term (candle/wax/soy): "Black Portable Square Carbon Oven"
-- `CJ-2110100667160236034` — bulk-pack name: "2PCS Thanksgiving Turkey Windsocks Outdoor Decorations Fall Wind Socks"
-- `CJ-2105020193338093569` — bulk-pack name: "3 Pack Thanksgiving Turkey Window Lights With Suction Cups"
-- `CJ-2110100069012340737` — bulk-pack name: "3 Pcs Thanksgiving Decorations Happy Thanksgiving Banner Turkey Door Cover"
-- `CJ-1992902419731488770` — probe filter: name has no kept term (candle/wax/soy): "66L Commercial Countertop Oven 2800W Electric Toaster Oven Stainless Steel"
-- `CJ-2115972521393729537` — probe filter: name has no kept term (candle/wax/soy): "3 Pack Non-Stick Oven Liners, Thick Heat Resistant Fiberglass Oven Bottom Mats, BPA Free, Reusable Easy Clean Oven Protector For Electric & Gas Oven"
-- `CJ-1992925489818681346` — probe filter: name has no kept term (candle/wax/soy): "Commercial Countertop Pizza Oven Electric Pizza Oven For 16' Pizza Indoor"
-- `CJ-2057368619066683393` — probe filter: name has no kept term (candle/wax/soy): "Grill Drip Pan,Grease Catcher Pan Compatible With Char-Broil, Black Steel Grease Pan Accessories For Most Charbroil Gas Grills"
-- `CJ-2097025375021621250` — probe filter: name has no kept term (candle/wax/soy): "Grill Drip Pan,Grease Catcher Pan Compatible With Char-Broil, Black Steel Grease Collection Pan Accessories For Most Charbroil Gas Grills"
-- `CJ-2044698734601072642` — probe filter: name has no kept term (candle/wax/soy): "Ceramic Nonstick Fry Pan Cream"
-- `CJ-1957279642061131777` — probe filter: name has no kept term (candle/wax/soy): "8 Pack Hotel Pans, Anti-Jam Steam Pan With Lid, 0.8mm Thick Stainless Steel Steam Table Pan, 4-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial & Scientific"
-- `CJ-1953123837025951745` — probe filter: name has no kept term (candle/wax/soy): "6 Pack Hotel Pans, Size Anti-Jam Steam Pan, 0.8mm Thick Stainless Steel Restaurant Steam Table Pan, 6-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial & Scientific"
-- `CJ-1988908090680971265` — probe filter: name has no kept term (candle/wax/soy): "4 Pack Hotel Pans, Full Size Anti-Jam Steam Pan With Lid, 0.8mm Thick Stainless Steel Steam Table Pan, 4-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial & Scientific"
-- `CJ-1988907892597342210` — probe filter: name has no kept term (candle/wax/soy): "6 Pack Hotel Pans, Full Size Anti-Jam Steam Pan, 0.8mm Thick Stainless Steel Restaurant Steam Table Pan, 2.5-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial & Scientifi"
-- `CJ-1953050144329138177` — probe filter: name has no kept term (candle/wax/soy): "6 Pack Hotel Pans, Full Size Anti-Jam Steam Pan, 0.8mm Thick Stainless Steel Restaurant Steam Table Pan, 4-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial  Scientific"
-- `CJ-2113675294482153474` — probe filter: name has no kept term (candle/wax/soy): "Kitchen Cleaning Jue Fish Pan Cleaner"
+- `CJ-1992904235752910849` — bulk-pack name: "8 Qt 4 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel"
+- `CJ-1956644451917742081` — bulk-pack name: "8 Qt 2 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel"
+- `CJ-1999718615043469314` — probe filter: excluded term "party" in name "Rectangle Chafing Dish, 9 Qt 2 Pack Stainless Steel Chafing Dish, Food Warmer Chafer Complete Set With Hollow Handle, 1 Food Tongs, Lid, Fuel Holder, Chafer Dishes For Banquet Party Wedding"
+- `CJ-2001515380788883458` — probe filter: excluded term "party" in name "Rectangle Chafing Dish, 9 Qt 6 Pack Stainless Steel Chafing Dish, Food Warmer Chafer Complete Set With Hollow Handle, 3 Food Tongs, Lid, Fuel Holder, Chafer Dishes For Banquet Party Wedding"
+- `CJ-1956639641417830402` — bulk-pack name: "8 Qt 6 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel"
+- `CJ-1956556868468363266` — bulk-pack name: "8 Qt 2 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel"
+- `CJ-1992894109208846338` — bulk-pack name: "4 Qt 2 Pack Rectangle Chafing Dish Buffet Set Half Size Pan Stainless Steel Gold"
+- `CJ-1957353096521207809` — bulk-pack name: "5 Qt 4 Pack Round Chafing Dish Buffet Set Full-Size Pan Stainless Steel Silver"
+- `CJ-1957291336485326850` — bulk-pack name: "5 Qt 4 Pack Round Chafing Dish Buffet Set Full-Size Pan Stainless Steel Gold"
+- `CJ-1992896646691463169` — bulk-pack name: "4Qt 1 Pack Rectangle Roll Top Chafing Dish Set 2 Half Size Pans Stainless Steel"
+- `CJ-1992897577533349889` — bulk-pack name: "5 Qt 4 Pack Round Chafing Dish Buffet Set Full-Size Pan Stainless Steel Silver"
+- `CJ-1992904266371330050` — bulk-pack name: "8 Qt 4 Pack Rectangle Chafing Dish Buffet Set Full-Size & Half-Size Pans Gold"
+- `CJ-1957021029916758017` — bulk-pack name: "5 Qt 2 Pack Round Chafing Dish Buffet Set Full-Size Pan Stainless Steel Silver"
+- `CJ-1956915191724769281` — bulk-pack name: "5 Qt 2 Pack Round Chafing Dish Buffet Set Full-Size Pan Stainless Steel Silver"
+- `CJ-1956558582869151745` — bulk-pack name: "5 Qt 4 Pack Round Chafing Dish Buffet Set Fullsize Pan Stainless Steel Rose Gold"
+- `CJ-1956647315792707586` — bulk-pack name: "8 Qt 4 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel Gold"
+- `CJ-1970729548515155970` — probe filter: excluded term "disposable" in name "Set Of 42Pcs Disposable Chafing Dish Buffet Set Chafing Servers With Covers Spoons Forks Tongs Full-Size Pans Food Warmers For Parties Events Catering Supplies With Utensils And Lids GPCT5373"
+- `CJ-1955194686183211010` — probe filter: excluded term "party" in name "4Pcs Chafing Dish Buffet Set 4.76QT Round Buffet Servers Food Warmer Stainless Steel Catering Chafer With Glass Lid For Warming Cooling Gatherings Banquets Buffets Party Wedding"
+- `CJ-1965675066046799873` — probe filter: excluded term "disposable" in name "36Pcs Per Set Disposable Chafing Dish Buffet Set Food Warmers For Party Buffet Server Catering Supplies With Covers Utensils Half Size Food Pans For Parties Events BBQ Catering"
+- `CJ-1990628046917509121` — probe filter: excluded term "disposable" in name "Set Of 42Pcs Disposable Chafing Dish Buffet Set Chafing Servers With Covers Spoons Forks Tongs Full-Size Pans Food Warmers For Parties Events Catering Supplies With Utensils And Lids GPCT5373"
+- `CJ-1953018146613338113` — probe filter: excluded term "disposable" in name "42Pcs Serve 6 Guests Disposable Chafing Dish Buffet Set Chafing Servers With Covers Spoons Forks Tongs Full-Size Pans Food Warmers For Parties Events Catering Supplies With Utensils And Lids"
+- `CJ-2120064952419020801` — probe filter: excluded term "party" in name "1 Pack Chafing Dish for Buffet Set, 6QT/ 5.7L Stainless Steel Chafer, for Banquet Party Wedding  Catering Event, Round Roll Top Buffet Servers and Warmers, with 1 Pot, Glass Lid, Tong, Glass Pad"
+- `CJ-1993017819237478401` — bulk-pack name: "Roll Top Chafing Dish Buffet Set, 6 Qt 2 Pack, Stainless Steel Chafer With 2 Full Size Pans, Round Catering Warmer Server With Lid Water Pan Stand Fuel Holder, For At Least 5 People Each"
+- `CJ-1990409133705306114` — bulk-pack name: "3Pcs Pre-Seasoned Cast Iron Skillet Set 6-8-10in Non-Stick Oven Safe Cookware Heat-Resistant Frying Pan"
+- `CJ-2096582782660411393` — bulk-pack name: "12Pcs Camping Cookware Set Camping Stove Aluminum Pot Pans Kit for Hiking Picnic Outdoor with Cup Fork Spoon Knife"
+- `CJ-1990664085694894081` — bulk-pack name: "3Pcs Pre-Seasoned Cast Iron Skillet Set 6/8/10in Non-Stick Oven Safe Cookware Heat-Resistant Frying Pan"
+- `CJ-2001466906413285378` — bulk-pack name: "1 Set Of 3pcs,Silicone Hot Handle Holder, Heat Resistant Potholder Cookware Handle Cast Iron Skillets Handles Grip Covers For Cast Iron Skillet"
+- `CJ-1940969292637437953` — bulk-pack name: "3Pcs Pre-Seasoned Cast Iron Skillet Set For Indoor Outdoor 6in 8in 10in Non-Stick Oven Safe Cookware Heat-Resistant Frying Pan For Frying Cooking Baking"
+- `CJ-2054488958448140290` — probe filter: excluded term "toy" in name "Play Kitchen For Kids, Wooden, Kids Kitchen Playset With Real Lights & Sounds, Food & Cookware Accessories, Pretend Play Toy Set, Sink, Oven, Stove, Cabinet, For Toddlers, Girls & Boys Ages 3-8"
+- `CJ-2054488892060696578` — probe filter: excluded term "toy" in name "Play Kitchen For Kids, Wooden, Kids Kitchen Playset With Realistic Lights & Sounds, Food & Cookware, Modern Style Pretend Play Toy Set, Ice Maker, Microwave, For Toddlers, Girls & Boys Ages 3-8"
+- `CJ-2054488737781747713` — probe filter: excluded term "toy" in name "Play Kitchen For Kids, Wooden, Kids Kitchen Playset With Real Lights & Sounds, Food & Cookware Accessories, Pretend Play Toy Set, Range Hood, Microwave, For Toddlers, Girls & Boys Ages 3-8, P Ink"
+- `CJ-2054488814071808001` — probe filter: excluded term "toy" in name "Play Kitchen For Kids, Wooden, Kids Kitchen P Layset With Real Lights & Sounds, Food & Cookware, Pretend P Lay Toy Set, Microwave, Oven, Clicking Knobs, For Toddlers, Girls & Boys Ages 3-8, P Ink"
+- `CJ-2093053317266046978` — bulk-pack name: "2 Pack Aqua Asteroid Pot Holders Heat Resistant Kitchen Potholders For Hot Pots Pans Baking And Cooking Protection Set"
+- `CJ-2124017640756531201` — probe filter: excluded term "disposable" in name "42-Piece Complete Disposable Chafing Dish Set - Includes 6 Half-Size Pans & Lids, 6 Full-Size Pans, Stands & Utensils - Aluminum Foil Material, Easy Cleanup - Perfect for Weddings, Parties"
+- `CJ-2091949451336638466` — bulk-pack name: "2 Pack Silicone Spatula Set, Solid & Slotted Turners For Non-Stick Pans, High Heat Resistant Cooking Utensils, BPA-Free, Black"
+- `CJ-2120049234219577346` — probe filter: excluded term "party" in name "4 Packs Chafing Dishes for Buffet Set, 9QT Stainless Steel Chafer, for Banquet Party Wedding, Rectangle Buffet Server Warmer, 2 Full & 2 Half & 3 Third-Size Pans, Fuel Holder, Tong, Glass Pad"
+- `CJ-2120048463687884802` — probe filter: excluded term "party" in name "2 Packs Chafing Dishes for Buffet Set, 9QT Stainless Steel Chafer, for Banquet Party Wedding, Rectangle Buffet Server Warmer, 1 Full & 2 Half-Size Pans, Glass Lid, Fuel Holder, Tong, Glass Pad"
+- `CJ-2120045479880355841` — probe filter: excluded term "party" in name "4 Packs Chafing Dishes for Buffet Set, 9QT Stainless Steel Chafer, for Banquet Party Wedding, Rectangle Buffet Server Warmer, 2 Full & 2 Half & 4 Fourth-Size Pans, Fuel Holder, Tong, Glass Pad"
+- `CJ-2120047758410838018` — probe filter: excluded term "party" in name "4 Packs Chafing Dishes for Buffet Set, 9QT Stainless Steel Chafer, for Banquet Party Wedding, Rectangle Buffet Server Warmer, 2 Full & 4 Half-Size Pans, Glass Lid, Fuel Holder, Tong, Glass Pad"
+- `CJ-2094745127322902529` — probe filter: excluded term "makeup" in name "DOWMOO 3-Piece Halloween Fake Blood Makeup Set, 3 Piece Set"
+- `CJ-2113727227688448001` — probe filter: excluded term "plastic" in name "12-Piece Colorful Plastic Spring Toys For Indoor Cats And Kittens"
+- `CJ-2112957952412401666` — probe filter: excluded term "makeup" in name "Halloween Fake Blood 3 Piece Set Washable Simulated Shoot Horror Realistic Makeup Set"
+- `CJ-2094709238665863170` — probe filter: excluded term "makeup" in name "AMZ Beauty and Makeup Mystery Box, 10 Piece Set"
+- `CJ-1990664434518380546` — bulk-pack name: "Non Stick Springform Cake Pan Leakproof 9in 10in 11in Bakeware Pan With Removable Bottom 3Pcs Per Set"
+- `CJ-1942514588667052033` — bulk-pack name: "3Pcs Per Set Non-stick Springform Cake Pan Leakproof 9in 10in 11in Bakeware Pan With Removable Bottom"
+- `CJ-2105369736293433346` — bulk-pack name: "3Pcs Stainless Steel Grill Basket Set With Basting Brush, Compact BBQ Pan"
 
 ## What still needs Diana
 
