@@ -1,32 +1,36 @@
 # CJ sync report
 
-- Run: 2026-11-23T19:31:00.853Z (DRY RUN — nothing written)
-- Keywords: frying pan, nonstick frying pan, cast iron skillet, saucepan set, stock pot, saute pan, wok, griddle pan, pots and pans set, stainless steel frying pan, ceramic frying pan, copper frying pan, deep frying pan, crepe pan, egg pan
-- Added: 69 (cap: 100) — Skipped: 61 — Already in file: 28
+- Run: 2026-11-23T20:45:56.805Z (DRY RUN — nothing written)
+- Keywords: frying pan set, small frying pan, saucepan, saucepan set, cooking pot, soup pot, pasta pot, sauce pot, milk pan, nonstick saucepan, stainless steel saucepan, ceramic saucepan, frying pan 8 inch, frying pan 10 inch, frying pan 12 inch
+- Added: 97 (cap: 100) — Skipped: 90 — Already in file: 28
 
-## Probe filter summary (pots and pans pass 2026-11-23)
+## Probe filter summary (probe)
 
-- Total results returned by CJ across 15 keywords: 281
-  - "frying pan": 20 results
-  - "nonstick frying pan": 20 results
-  - "cast iron skillet": 20 results
+- Total results returned by CJ across 15 keywords: 286
+  - "frying pan set": 20 results
+  - "small frying pan": 20 results
+  - "saucepan": 6 results
   - "saucepan set": 20 results
-  - "stock pot": 20 results
-  - "saute pan": 20 results
-  - "wok": 1 results
-  - "griddle pan": 20 results
-  - "pots and pans set": 20 results
-  - "stainless steel frying pan": 20 results
-  - "ceramic frying pan": 20 results
-  - "copper frying pan": 20 results
-  - "deep frying pan": 20 results
-  - "crepe pan": 20 results
-  - "egg pan": 20 results
-- Filtered out by name: 43 (no kept term candle/wax/soy: 17; excluded term LED/flameless/electric/holder/warmer/lamp/fake: 26)
-- Name filter kept: 238 results for further checks (bulk, image, details)
+  - "cooking pot": 20 results
+  - "soup pot": 20 results
+  - "pasta pot": 20 results
+  - "sauce pot": 20 results
+  - "milk pan": 20 results
+  - "nonstick saucepan": 20 results
+  - "stainless steel saucepan": 20 results
+  - "ceramic saucepan": 20 results
+  - "frying pan 8 inch": 20 results
+  - "frying pan 10 inch": 20 results
+  - "frying pan 12 inch": 20 results
+- Filtered out by name: 67 (no kept term candle/wax/soy: 67; excluded term LED/flameless/electric/holder/warmer/lamp/fake: 0)
+- Name filter kept: 219 results for further checks (bulk, image, details)
 
 ## Added
 
+- **Baking Pan Set 3-Piece Nonstick Carbon Steel Bakeware Set With Silicone Handle** — SKU `CJ-1908182375194882050`, cost $15.99, suggested retail $23.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/9720104e-1f67-445c-b201-d85a4963d4c8.jpg
+- **Baking Pan Set 3-Piece Nonstick Carbon Steel Bakeware Set With Silicone Handle** — SKU `CJ-1992911734133145601`, cost $18.39, suggested retail $27.59, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/b3cf2654-9e63-41c2-957a-9b74d3ed11d2.jpg
+- **9Qt Rectangle Roll Top Chafing Dish Set With Full-Size Pan Stainless Steel** — SKU `CJ-1992906069656772610`, cost $86.32, suggested retail $129.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/7051b106-fcbc-40af-9264-031a9b90b2c7.jpg
+- **9Qt Rectangle Roll Top Chafing Dish Set With Full-Size Pan Stainless Steel Gold** — SKU `CJ-1992906104045871105`, cost $103.92, suggested retail $155.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/61b42050-0384-451e-b831-ce14aa9d2a07.jpg
 - **1 Coated Stainless Steel Frying Pan 10in** — SKU `CJ-2115695772677832705`, cost $28.67, suggested retail $43.01, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/f58b2fcd72d44b1bb7db228f06e9afdb.png
 - **Home Cleaning Barbecue Grill Degreasing Spray - Multi-Purpose Frying Pan** — SKU `CJ-2114443679565938690`, cost $13.99, suggested retail $20.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17927136/a6886c62-35ab-4f88-9feb-7f62ed5675a8.jpg
 - **Home Cleaning Barbecue Grill Degreasing Spray - Multi-Purpose Frying Pan** — SKU `CJ-2113675447280267265`, cost $13.99, suggested retail $20.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17927136/a6886c62-35ab-4f88-9feb-7f62ed5675a8.jpg
@@ -44,122 +48,175 @@
 - **Gas Griddle, 3-Burner Flat Top Grill, Propane Griddle With Wheels, Lid, 3 X 11000 BTU Outdoor Flat Top Grills For Pan-Frying, Grilling, Stir-Frying, & BBQ, Pulse Ignition, Removable Top Design** — SKU `CJ-2001495493257392130`, cost $176.33, suggested retail $264.50, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17660160/21fd9a4b-0c86-4f6a-8eca-f984fa98ee03.jpg
 - **Jarrary Barbecue Grill Degreasing Spray - Multi-Purpose Frying Pan Barbecue Grill Cleaning Agent For Removing Grease And Burnt Residues During Daily Use.** — SKU `CJ-2118466009006804993`, cost $6.09, suggested retail $9.14, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17938368/56027d2b-d479-49d7-b6e8-43826f77a347.jpg
 - **2.2 Quart Titanium Alloy Stainless Steel Multifunctional Household PFOA-free Non-stick Frying Pan With Lid, Dishwasher-safe, Oven-safe, Suitable For All Stovetops** — SKU `CJ-1935175283361361922`, cost $57.72, suggested retail $86.58, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/e3cf33d5-5635-47ac-bbc2-6fad45d2b4f0.png
-- **Oval Cast Iron Grill Outdoor, Portable Charcoal Grill and Tabletop Cast Iron Skillet - 100% Cast Iron, Enameled, Durable, Small Charcoal Grill, Camping Stove, Hibachi Grill** — SKU `CJ-2118675623086964738`, cost $83.05, suggested retail $124.57, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/95e991a31f124d54a99e03c2e0ed1c30.jpg
-- **Oval Cast Iron Grill Outdoor, Portable Charcoal Grill and Tabletop Cast Iron Skillet - 100% Cast Iron, Enameled, Durable, Small Charcoal Grill, Camping Stove, Hibachi Grill -Does not support self pick** — SKU `CJ-2118752643313614849`, cost $95.23, suggested retail $142.85, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/9ef461da7e9340548275a46111364b30.jpg
-- **COOKWIN Cast Iron Casserole Braiser 3.8 Quart Heavy Duty Casserole Skillet With Lid And Dual Handles Porcelain Enameled Surface Cookware Pot** — SKU `CJ-2036272548082221058`, cost $49.12, suggested retail $73.68, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/988fa57d-f498-4cfc-ab43-1513c519ceac.jpg
-- **pre-Seasoned Cast Iron Dutch Oven With Skillet Lid, Outdoor Camping Deep Pot for Camping Fireplace Cooking BBQ Baking Campfire, Leg Base,6 Quart** — SKU `CJ-2118751087251996674`, cost $55.04, suggested retail $82.56, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/2de232aac3484a1bb20bb73091409dbe.jpg
-- **pre-Seasoned Cast Iron Dutch Oven With Skillet Lid, Outdoor Camping Deep Pot for Camping Fireplace Cooking BBQ Baking Campfire, Leg Base, 8 Quart** — SKU `CJ-2118809950726701057`, cost $57.66, suggested retail $86.49, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/0a25cf74f7f6457fa28f1da0ce3052b0.jpg
-- **pre-Seasoned Cast Iron Dutch Oven With Skillet Lid, Outdoor Camping Deep Pot for Camping Fireplace Cooking BBQ Baking Campfire, Leg Base, 4.5 Quart** — SKU `CJ-2116025049889767425`, cost $41.89, suggested retail $62.84, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/0bf2acf48c0545868f3682891699cb6d.JPG
-- **pre-Seasoned Cast Iron Dutch Oven With Skillet Lid, Outdoor Camping Deep Pot for Camping Fireplace Cooking BBQ Baking Campfire, Leg Base, 4.5 Quart** — SKU `CJ-2118760902934183937`, cost $41.42, suggested retail $62.13, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/0dd48d1de7c14a04b1d53698c6d908bf.jpg
-- **Stainless Steel 12 Quart Covered Stock Pot (Shipment from Walmart)** — SKU `CJ-2097028963478298625`, cost $81.23, suggested retail $121.85, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/49374e784ee34c0fac58935dca3ea873.jpg
-- **Stainless Steel 12 Quart Covered Stock Pot (Shipment from Walmart)** — SKU `CJ-2122608257580568577`, cost $88.80, suggested retail $133.20, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/326411f072e64c9b90260b74f4b0553f.png
-- **Stainless Steel 12-Quart Stock Pot with Glass Lid, Induction Compatible, Stainless Steel, Dishwasher Safe (Shipment from Walmart)** — SKU `CJ-2097028940459958274`, cost $50.68, suggested retail $76.02, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/c578fa22e858416ea141532adeef12e2.jpg
-- **Stainless Steel 12-Quart Stock Pot with Glass Lid, Induction Compatible, Stainless Steel, Dishwasher Safe (Shipment from Walmart)** — SKU `CJ-2122612052146425858`, cost $55.38, suggested retail $83.07, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/f784de3685c640ca8b48ee379616197a.png
-- **Stainless Steel Stockpot, 42 Quart Large Cooking Pots, Multipurpose Cookware Sauce Pot With Lid & Handle, Heavy Duty Commercial Grade Stock Pot, Sanding Treatment, For Large Groups Events Silver** — SKU `CJ-1993025504209039361`, cost $64.01, suggested retail $96.02, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/de5c9f8b-48f5-48d8-857f-8fcefcf31f7e.jpg
-- **Aluminum Stock Pot, 6-Quart Nonstick Ceramic Coated Pot With Glass Lid, PFOA-Free, PFAS-Free, Compatible With Gas Stoves, Induction Cooktops, Electric Stoves, For Soups, Stews, And Pasta** — SKU `CJ-2054767100675923969`, cost $21.53, suggested retail $32.30, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17787168/c5f59c6a-6372-439c-82bd-a4ce51da3945.jpg
-- **Aluminum Stock Pot, 12-Quart Nonstick Ceramic Coated Pot With Glass Lid, PFOA-Free, PFAS-Free, Compatible With Gas Stoves, Induction Cooktops, Electric Stoves, For Soups, Stews, And Pasta** — SKU `CJ-2054766868554752002`, cost $27.82, suggested retail $41.73, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17787168/67dbcf0a-0153-434e-8846-0940bf9b4ea7.jpg
-- **VEVOR Stainless Steel Stockpot, 42 Quart Large Cooking Pots, Cookware Sauce Pot With Strainer, Lid, And Handle, Heavy Duty Commercial Grade Stock Pot, Sanding Treatment, For Large Groups Events Silver** — SKU `CJ-1908183857445138433`, cost $58.97, suggested retail $88.46, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/089aa6d9-8cf8-4fbc-8aa5-d1f1a8cbadaa.jpg
-- **Water Bath Canner, 15 Quart Stove Top Canner Pot, Boiling Water Canners With 2 Canning Racks, 304 Food Grade Stainless Steel Large Stock Pot, Flat Bottom Brushed Canner, Holds 15 Quart Jars** — SKU `CJ-2001202029357084673`, cost $79.13, suggested retail $118.70, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17659296/7390c6a0-d216-462f-b3d5-412221536891.jpg
-- **304 Stainless Steel Kettle, 16 GALLON Beer Brew Fermentor, Brew Bucket Fermentor For Brewing, Home Brewing Supplies With Base, Kettle Stock Pot Includes Lid, Handle, Valve, Spigot, Thermometer** — SKU `CJ-1992888468324663298`, cost $147.92, suggested retail $221.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/aa28146f-0d0f-4463-bb89-872b6cd1ce74.jpg
-- **304 Stainless Steel Kettle, 8 GALLON Beer Brew Fermentor, Brew Bucket Fermentor For Brewing, Home Brewing Supplies With Base, Kettle Stock Pot Includes Lid, Handle, Valve, Spigot, Thermometer** — SKU `CJ-1992888504499859457`, cost $112.72, suggested retail $169.08, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/54b2f87d-4dd3-4fd0-a7d5-fae9e2739a12.jpg
-- **Stainless Steel Stock Pot, 12-Quart Stainless Steel Stockpot With Glass Lid, PFOA-Free, PFAS-Free, Compatible With Gas Stoves, Induction Cooktops, Electric Stoves, For Soups, Stews, And Pasta** — SKU `CJ-2054392119086514177`, cost $28.73, suggested retail $43.10, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17786304/1f2db744-07c3-4d7a-9425-06ce9d6024ad.jpg
+- **Oil-free Saucepan Brush, Washing Pot And Bowl, Cleaning Brush** — SKU `CJ-1414506548801179648`, cost $5.81, suggested retail $8.72, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/ca97edd7-2205-4011-b2ce-5e6e219e95c2.jpg
+- **1.5 QT Saucepan With Steamer, Stainless Steel Saucepan With Glass Lid, Multipurpose Nonstick Stainless Steel Sauce Pot With Ergonomic Handle, Friendly For Oven, Dishwasher, Induction Cooker** — SKU `CJ-2001510996140015617`, cost $24.79, suggested retail $37.19, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17660160/a3d580e6-eb61-48f0-af83-83db2f695bc2.jpg
+- **2.5 QT Saucepan With Steamer, Stainless Steel Saucepan With Glass Lid, Multipurpose Nonstick Stainless Steel Sauce Pot With Ergonomic Handle, Friendly For Oven, Dishwasher, Induction Cooker** — SKU `CJ-2001510476788711425`, cost $21.59, suggested retail $32.39, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17660160/80d40f35-e61a-4316-ae91-b1816007e5a7.jpg
+- **1.5 QT Saucepan, Nonstick Saucepan With Tempered Glass Lid, Multipurpose Cooking Sauce Pot With Detachable Handle, Sauce Pan Small Kitchen Cooking Pot With Coating, Induction Compatible, Black** — SKU `CJ-2001851743447855106`, cost $18.32, suggested retail $27.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17661024/5734c793-6913-4d5b-8974-dc1c29f3355f.jpg
+- **2-in-1 Stainless Steel Saucepan with Steamer 2.5QT Tri-Ply Bottom Induction Compatible Dishwasher Safe** — SKU `CJ-2118825786417922050`, cost $62.82, suggested retail $94.23, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/b8573c39e0fc481b8ed3fa37f69efa43.jpg
+- **2-in-1 Stainless Steel Saucepan with Steamer 2.5QT Tri-Ply Bottom Induction Compatible Dishwasher Safe** — SKU `CJ-2123996346933628929`, cost $68.66, suggested retail $102.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/66d278b6d5b847fcb31665051fd4507f.png
+- **Cast iron 5QT cooking pot - Gradient blue - Includes two silicone gloves - Enamel pot** — SKU `CJ-2116032531764740098`, cost $33.43, suggested retail $50.15, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/8afac764fda342748cbb519394ee7c3a.png
+- **Cast iron 5QT cooking pot - Gradient red - Includes two silicone gloves - Enamel pot** — SKU `CJ-2117903613915488258`, cost $36.77, suggested retail $55.16, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/eb97940ad9c54a098dd110a217a1aafa.png
+- **Cast iron 5QT cooking pot - Gradient green - includes two silicone gloves - Enamel pot** — SKU `CJ-2115694144423854081`, cost $35.52, suggested retail $53.28, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/4522944ddde74039a09c2461bd324a37.jpg
+- **Cast iron 5QT cooking pot - Pure black - includes two silicone gloves - Enamel pot** — SKU `CJ-2121173829639979009`, cost $39.38, suggested retail $59.07, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/3a4f92d128a4442e90fbec4120c39652.jpg
+- **Cast iron 5QT cooking pot - ceramic white - comes with two silicone gloves - Enamel pot** — SKU `CJ-2117903672602189825`, cost $33.43, suggested retail $50.15, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/8627b1aea2da4e8d8cd681b56fe8837c.png
+- **Cast iron 6QT cooking pot - ceramic white - comes with two silicone gloves - Enamel pot** — SKU `CJ-2123243729937145857`, cost $38.99, suggested retail $58.49, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/dce64e4295a747f480af03a5de4e2a04.png
+- **24QT Stainless Steel Stockpot Cooking Kitchen Sauce Pot With Lid Handle** — SKU `CJ-1992881363441446913`, cost $43.85, suggested retail $65.78, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/ca016de1-f5e8-4a72-b2fd-ae8cf3875597.jpg
+- **53QT Stainless Steel Stockpot Cooking Kitchen Sauce Pot With Lid Handle** — SKU `CJ-1992899470307016705`, cost $69.05, suggested retail $103.57, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/7e630f6d-d18a-46c3-b052-f01c00247f1d.jpg
+- **80 Qt Seafood Boiling Kit With Strainer Outdoor Crab Crawfish Cooking Pot** — SKU `CJ-1988920732032974849`, cost $126.65, suggested retail $189.98, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17629920/a682d8ce-19ec-4383-9467-71be6d95420e.jpg
+- **64QT Stainless Steel Stockpot Cooking Kitchen Sauce Pot With Basket Lid Handle** — SKU `CJ-1992902185576079362`, cost $79.92, suggested retail $119.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/79cf2003-dccf-4b3f-b3e9-6cb0a1efbe79.jpg
+- **84QT Stainless Steel Stockpot Cooking Kitchen Sauce Pot With Basket Lid Handle** — SKU `CJ-1992904638742315009`, cost $90.65, suggested retail $135.98, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/a7cdbdf6-f7ab-47a5-bc0f-dedbf4dfd0dd.jpg
+- **100QT Stainless Steel Stockpot Cooking Kitchen Sauce Pot With Basket Lid Handle** — SKU `CJ-1992863731615035394`, cost $107.93, suggested retail $161.90, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/47679e75-bbe4-4a97-bf7c-34f628a97cb9.jpg
+- **36QT Stainless Steel Stockpot Cooking Kitchen Sauce Pot With Basket Lid Handle** — SKU `CJ-1992891437055516674`, cost $55.37, suggested retail $83.06, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/e1bf5cf4-91aa-4eda-86fa-72f02f908916.jpg
+- **100 Qt Seafood Boiling Kit With Strainer Outdoor Crab Crawfish Cooking Pot** — SKU `CJ-1988920783220260865`, cost $147.53, suggested retail $221.30, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17629920/e7aefe98-89d7-45b3-b6a8-1a5a5b6432ef.jpg
+- **Outdoor Camping Deep Pot For Camping Fireplace Cooking Barbecue Baking Campfire With Leg Base** — SKU `CJ-1889243641232355330`, cost $54.24, suggested retail $81.36, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/62aea47d-c85a-45c0-aacb-d85780f84159.JPG
+- **BBQ Grill Fondue Pot Set with Adjustable Thermostats for 8 People Outdoor Cooking Equipment** — SKU `CJ-2122950300246122498`, cost $90.97, suggested retail $136.45, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/9c534eec5ff9412c9889ecc06c3dc5b2.jpg
+- **Peacock Pair of Pot Holders Kitchen Heat Resistant Pot Holders Sets Oven Hot Pads for Cooking Baking BBQ, 7 1/2 x 7 1/2** — SKU `CJ-2098289863848853505`, cost $21.02, suggested retail $31.53, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/697888b65dfe43b386c759376be84679.jpg
+- **Cardinal Pair of Pot Holders Kitchen Heat Resistant Pot Holders Sets Oven Hot Pads for Cooking Baking BBQ, 7 1/2 x 7 1/2** — SKU `CJ-2098289844819296257`, cost $21.02, suggested retail $31.53, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/308adf312ee04a948d518cd4982b7833.jpg
+- **Dachshund Christmas Pair of Pot Holders Kitchen Heat Resistant Pot Holders Sets Oven Hot Pads for Cooking Baking BBQ, 7 1/2 x 7 1/2** — SKU `CJ-2098273129532870658`, cost $21.02, suggested retail $31.53, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/1a7ad312727245bea25dbecac840648b.jpg
+- **8 Inch Soup Pot-0503** — SKU `CJ-1989592517375057922`, cost $13.80, suggested retail $20.70, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/d46d1593-e4e5-4bf6-95d4-be073e22619d.png
+- **Plastic Microwaveable Sealing Soup Pot** — SKU `CJ-5A939550-3E40-4A82-ACFD-4EADCE0B4DA4`, cost $0.99, suggested retail $1.49, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/2054/1201597926188.jpg
+- **8 Inch Soup Pot-Pink 1132** — SKU `CJ-1989590424794849282`, cost $17.00, suggested retail $25.50, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/d57a296e-64f0-40b0-b912-21c1452aa699.png
+- **8 Inch Soup Pot-Green 1149** — SKU `CJ-1989588135740497921`, cost $17.00, suggested retail $25.50, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/b328d975-f8cb-4482-935b-e7bc137a7a6d.jpg
+- **Wheat Straw Long-Handled Dual-Use Large Soup Ladle Colander Thickened Hot Pot Scoop Plastic Porridge Spoon Hot Pot Soup Spoon** — SKU `CJ-1389086444198432768`, cost $0.18, suggested retail $0.27, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/1620018850940.jpg
+- **A Cast-iron Soup Pot With A Lid Safe, Reliable, And Designed To Preserve Nutrients When Stewing Bones Or Making Soup.** — SKU `CJ-2069979588226842626`, cost $56.62, suggested retail $84.93, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/ff4985ef-c223-46f6-a767-db83b396d64b.png
+- **Electric Soup Warmer, Four 7.4QT Stainless Steel Round Pot 86~185°F Adjustable Temp, 1500W Commercial Bain Marie With Anti-dry Burn And Reset Button, Soup Station For Restaurant, Buffet, Silver** — SKU `CJ-1992952957602545665`, cost $146.32, suggested retail $219.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/7f813606-c761-4dc9-aa39-b75b87f96e1e.jpg
+- **6L 1.59Gal Electric Hot Pot With Divider And Lid 2000W Stainless Steel With 2 Heat Settings Independent Control Overheat Protection Ladle & Slotted Spoon For Hot Pot Soup Noodles Shabu** — SKU `CJ-2065647498198228994`, cost $62.61, suggested retail $93.92, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/da83a118-2a55-4a08-ba05-6a7ddfcfc416.jpg
+- **1Pc Electric Hot Pot With Steamer 1.8L Mini Portable Hot Pot With 300W 600W Dual Power For Egg Fried Rice Ramen Oatmeal Soup Overheat Protection For College Dorm Room Essential** — SKU `CJ-2059106258075832322`, cost $27.31, suggested retail $40.97, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/1c5c1c9b-31ea-4992-9ce9-6d172961faf3.jpg
+- **22-Piece Non-Stick Cookware Set, 6 Pots & 3 Lids, Removable Handles, Oven & Dishwasher Safe, Includes 28cm Soup Pot, Cream White Aluminum** — SKU `CJ-2123695419836125186`, cost $66.08, suggested retail $99.12, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/a11ae5c9139a410ea06c95e05fec61e1.png
+- **Electric Hot Pot 800W 3L Food Grade Nonstick Coating Multifunctional Electric Cooker With Steam Basket For Steak Rice Noodles Soup US Plug** — SKU `CJ-2056567725401468929`, cost $28.54, suggested retail $42.81, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17791488/e1c64363-73a8-4539-b01b-a2014ca3a74b.jpg
+- **Cast Iron Soup Pot, Beautiful And Eye-catching, Can Be Used As A Decorative Item, Stew Meat Lock Freshness, Enhance The Kitchen Style** — SKU `CJ-1996463853644468225`, cost $54.26, suggested retail $81.39, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/590bc8ac-e329-46eb-9745-94159232c872.png
+- **High flower pot, plastic flower pot, brown** — SKU `CJ-2117669248680005634`, cost $140.47, suggested retail $210.71, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/730a1d0239e7409dace773ddb99b994b.jpg
+- **High flower pot, plastic flower pot, black** — SKU `CJ-2117669917482749954`, cost $150.70, suggested retail $226.05, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/6665aed4f25648a7974be31eb70a206a.jpg
+- **Flower Pot** — SKU `CJ-2121527431899312130`, cost $72.59, suggested retail $108.89, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/eb38c96dd00a4ee68800f38b4648ca9d.jpg
+- **High flower pot, plastic flower pot, gray** — SKU `CJ-2117710697278672898`, cost $140.47, suggested retail $210.71, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/8fe556f446214741b4c9714edb3dc6f8.jpg
+- **Flower Pot** — SKU `CJ-2123748428750311426`, cost $128.74, suggested retail $193.11, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/f74dc742a0e14b1ab596a23fd771c451.jpg
+- **Flower Pot** — SKU `CJ-2123767176051871746`, cost $88.18, suggested retail $132.27, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/5a8d613c304d4b41be5a837743c09e35.jpg
+- **Flower Pot** — SKU `CJ-2123745886016425986`, cost $112.54, suggested retail $168.81, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/4c8ea0b7a21a46198e82e08287515f6e.jpg
 - **30QT Turkey Pot, 10QT Fish Pot, Four Piece Set, Black Circular Iron Frame, Silver Aluminum Pot, Gas Fryer** — SKU `CJ-1904827423655391234`, cost $78.48, suggested retail $117.72, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/bb359224-5287-4be3-8b75-20bd1eee85d4.jpg
+- **Aluminum Stock Pot, 12-Quart Nonstick Ceramic Coated Pot With Glass Lid, PFOA-Free, PFAS-Free, Compatible With Gas Stoves, Induction Cooktops, Electric Stoves, For Soups, Stews, And Pasta** — SKU `CJ-2054766868554752002`, cost $27.82, suggested retail $41.73, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17787168/67dbcf0a-0153-434e-8846-0940bf9b4ea7.jpg
+- **Aluminum Stock Pot, 6-Quart Nonstick Ceramic Coated Pot With Glass Lid, PFOA-Free, PFAS-Free, Compatible With Gas Stoves, Induction Cooktops, Electric Stoves, For Soups, Stews, And Pasta** — SKU `CJ-2054767100675923969`, cost $21.53, suggested retail $32.30, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17787168/c5f59c6a-6372-439c-82bd-a4ce51da3945.jpg
+- **Stainless Steel Stock Pot, 12-Quart Stainless Steel Stockpot With Glass Lid, PFOA-Free, PFAS-Free, Compatible With Gas Stoves, Induction Cooktops, Electric Stoves, For Soups, Stews, And Pasta** — SKU `CJ-2054392119086514177`, cost $28.73, suggested retail $43.10, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17786304/1f2db744-07c3-4d7a-9425-06ce9d6024ad.jpg
+- **Wall mounted Pot Filler Faucet, Modern Brass Pot Filler Two-Attachment Wall Mount Folding Kitchen Pot Filler Swing Arm** — SKU `CJ-2096918763538767873`, cost $118.58, suggested retail $177.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/0ea57d3c4db649478451e1cdaa239887.jpg
+- **Wishing well flower pot** — SKU `CJ-2123539419435761666`, cost $119.06, suggested retail $178.59, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/a8075bfcb47348ecbc3af92419a0a86f.jpg
+- **Wishing well flower pot** — SKU `CJ-2119792927458062338`, cost $125.27, suggested retail $187.91, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/f880e2bc98284203a3033160b8977c5f.jpg
+- **Round cement flower pot** — SKU `CJ-5642249E-B4FF-4AAC-B2C0-19B0A57E23CD`, cost $1.78, suggested retail $2.67, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/15941376/6793168753536.jpg
+- **Rattan FLOWER POT - BROWN** — SKU `CJ-2056612157920276482`, cost $86.04, suggested retail $129.06, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17791488/6eb5313b-6a09-423b-aab6-35e82c0a22ab.jpg
+- **Wall mounted Pot Filler Faucet, Modern Brass Pot Filler Two-Attachment Wall Mount Folding Kitchen Pot Filler Swing Arm** — SKU `CJ-2096918699256864769`, cost $118.58, suggested retail $177.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/eb680b35bd9f45f3b3cc1d9b3c3f3982.jpg
+- **Wall mounted Pot Filler Faucet, Modern Brass Pot Filler Two-Attachment Wall Mount Folding Kitchen Pot Filler Swing Arm** — SKU `CJ-2116476713473073153`, cost $112.73, suggested retail $169.10, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/861b6d8323734c41b1157ca39915ed6f.JPG
+- **Wall mounted Pot Filler Faucet, Modern Brass Pot Filler Two-Attachment Wall Mount Folding Kitchen Pot Filler Swing Arm** — SKU `CJ-2096920224926556161`, cost $118.58, suggested retail $177.87, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/6dd87598d82f4540874947ab0b4c797b.jpg
+- **Wall mounted Pot Filler Faucet, Modern Brass Pot Filler Two-Attachment Wall Mount Folding Kitchen Pot Filler Swing Arm** — SKU `CJ-2117469440878678017`, cost $112.73, suggested retail $169.10, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/9da581c84671473e81ff2958e52dbe4d.JPG
+- **Stainless Steel Stockpot, 42 Quart Large Cooking Pots, Multipurpose Cookware Sauce Pot With Lid & Handle, Heavy Duty Commercial Grade Stock Pot, Sanding Treatment, For Large Groups Events Silver** — SKU `CJ-1993025504209039361`, cost $64.01, suggested retail $96.02, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/de5c9f8b-48f5-48d8-857f-8fcefcf31f7e.jpg
+- **VEVOR Stainless Steel Stockpot, 42 Quart Large Cooking Pots, Cookware Sauce Pot With Strainer, Lid, And Handle, Heavy Duty Commercial Grade Stock Pot, Sanding Treatment, For Large Groups Events Silver** — SKU `CJ-1908183857445138433`, cost $58.97, suggested retail $88.46, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/089aa6d9-8cf8-4fbc-8aa5-d1f1a8cbadaa.jpg
 - **Grill Drip Pan,Grease Catcher Pan Compatible With Char-Broil, Black Steel Grease Pan Accessories For Most Charbroil Gas Grills** — SKU `CJ-2057368619066683393`, cost $15.00, suggested retail $22.50, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/2cb21715-059d-444b-9781-261b1be3d5a0.jpg
 - **Grill Drip Pan,Grease Catcher Pan Compatible With Char-Broil, Black Steel Grease Collection Pan Accessories For Most Charbroil Gas Grills** — SKU `CJ-2097025375021621250`, cost $6.35, suggested retail $9.52, Candles, pic: yes, US warehouse: yes, img: https://xffbbhangzhou.oss-cn-hangzhou.aliyuncs.com/product/55S9VT8RH39S59ADM7TS1XE99R.jpg
 - **Ceramic Nonstick Fry Pan Cream** — SKU `CJ-2044698734601072642`, cost $14.23, suggested retail $21.35, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17762976/dd632731-8c3b-4921-a18f-7c0f524a3c42.jpg
 - **Kitchen Cleaning Jue Fish Pan Cleaner** — SKU `CJ-2113675294482153474`, cost $13.99, suggested retail $20.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17927136/2d976bbf-a44b-4cba-9511-be4ad6ebff15.jpg
 - **Kitchen Cleaning Jue Fish Pan Cleaner** — SKU `CJ-2114443737682214913`, cost $13.99, suggested retail $20.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17927136/2d976bbf-a44b-4cba-9511-be4ad6ebff15.jpg
 - **Kitchen Cleaning Jue Fish Pan Cleaner** — SKU `CJ-2114470198209228802`, cost $18.35, suggested retail $27.53, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17927136/2d976bbf-a44b-4cba-9511-be4ad6ebff15.jpg
+- **Portable Oil Drain Pan With Pump 64L Oil Drain Pan 17 Gallon Low Profile Oil Drain Pan With 8\' Hose For SUV Car And Trucks** — SKU `CJ-2001199131437359105`, cost $143.92, suggested retail $215.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17659296/4ba9074e-08e5-4167-95c3-2b7ccbf07126.jpg
 - **Kitchen Commercial Pizza Oven Stainless Steel Pan** — SKU `CJ-2070399814872969217`, cost $75.59, suggested retail $113.39, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17824320/d2276c55-f943-4c9e-a5f8-c21af6490d29.jpg
-- **Jue Fish Pan Cleaner, Pan Bottom Grease Cleaner To Remove Oil And Scale Cleaning Polishing Anti-Rust Cleaning Liquid** — SKU `CJ-2118461714435215362`, cost $6.09, suggested retail $9.14, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17938368/c3f0a33e-03ae-4a45-99ee-4946b40cbc06.jpg
-- **Nonstick Carbon Steel Wok, Pre-Seasoned Flat Bottom Chinese Pan, Compatible With Induction, BBQ And Camping** — SKU `CJ-2065642182408642561`, cost $31.62, suggested retail $47.43, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/4c782fcb-07ae-406b-8d19-e23905a93094.jpg
-- **VEVOR Reversible Grill Griddle, Pre-Seasoned Cast Iron Griddle, Rectangular Double Burner Griddle Pan, Non-Stick Family Pan Cookware With Handles, Flat Top Plate For BBQ, Gas Grill, Black** — SKU `CJ-1908353728366379010`, cost $20.09, suggested retail $30.14, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/52453187-a9db-4f9e-8596-3ad97b293b6f.jpg
-- **Stove Top Griddle, 23.5"x16" Pre-Seasoned Stainless Steel Griddle, Rectangular Double Burner Griddle Pan, Non-Stick Family Pan Cookware With Handles And Oil Groove, For BBQ, Gas Grills, Silver** — SKU `CJ-1988908312132730881`, cost $60.72, suggested retail $91.08, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17629920/2971897c-ab31-4021-b607-79675fcce1f7.jpg
-- **14x8.5 Inch Reversible Grill Griddle Pre-Seasoned BBQ Pan Cast Iron Black** — SKU `CJ-1992869227771240449`, cost $23.12, suggested retail $34.68, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/c2fdd3f7-f3df-4f12-969a-b092d617cce2.jpg
-- **32x16 In Flat Top Griddle Stainless Steel Universal BBQ Grill Pan Cookware** — SKU `CJ-1992889581102874626`, cost $66.32, suggested retail $99.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/ee1ecb29-daf0-406f-9b67-55d4132274e8.jpg
-- **24x16 In Flat Top Griddle Carbon Steel Universal BBQ Grill Pan Cookware** — SKU `CJ-1956911068234665985`, cost $47.12, suggested retail $70.68, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/06a09312-4d22-469d-9acc-1675207df63c.jpg
-- **24x16 In Flat Top Griddle Carbon Steel Universal BBQ Grill Pan Cookware** — SKU `CJ-1992881644135817218`, cost $45.52, suggested retail $68.28, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/37ff35f6-f5f5-4fa2-a27f-3badfa4bd2dc.jpg
-- **18x16 In Flat Top Griddle Stainless Steel Universal BBQ Grill Pan Cookware** — SKU `CJ-1992872199906422786`, cost $42.32, suggested retail $63.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/bcaa0dea-f7c5-4ae0-951c-bf0ad1160df7.jpg
-- **20x10in Reversible Grill Griddle Pre-Seasoned Rectangular BBQ Pan Cast Iron** — SKU `CJ-1992879083821121537`, cost $30.32, suggested retail $45.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/c4fbde7f-b9e4-4aa0-bdf7-1fe0d69136c4.jpg
-- **17x13 In Flat Top Griddle Stainless Steel Universal BBQ Grill Pan Cookware** — SKU `CJ-1957315178614882306`, cost $42.32, suggested retail $63.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/26544dd0-5b9a-49d9-adab-c53c38702367.jpg
-- **22x16 In Flat Top Griddle Carbon Steel Universal BBQ Grill Pan Cookware** — SKU `CJ-1992879393502687234`, cost $39.97, suggested retail $59.96, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/118a7545-80fe-41dd-8cd2-f820ec3ac64d.jpg
-- **36x22 In Flat Top Griddle Stainless Steel Universal BBQ Grill Pan Cookware** — SKU `CJ-1957411165951791106`, cost $87.92, suggested retail $131.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/49f893c2-efca-4fe6-954b-b92c52b2e5cb.jpg
-- **Replace 241798043-Burner Flat Top Gas Griddle Cooking Station with Ceramic Coated Cast Iron Pan, 30,000 BTU Propane Fuelled Griddle Station for Outdoor Barbecue Backyard Cookout** — SKU `CJ-2119872182716067841`, cost $117.94, suggested retail $176.91, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/7de103d7646c4aefa3db3a6c0e691793.jpg
-- **【Replace 97621364】3-Burner Flat Top Gas Griddle Cooking Station with Ceramic Coated Cast Iron Pan, 30,000 BTU Propane Fuelled Griddle Station with Side Shelves & Spice Rack for Outdoor Barbecue Backya** — SKU `CJ-2116031261779820545`, cost $136.43, suggested retail $204.65, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/f1afe7a0f5604519b03fe1f443a72382.jpg
-- **Reversible Grill/Griddle 20x9 in Pre-Seasoned Cast Iron Pan Handle, for BBQ, Eggs, Pancakes, Burgers, Dual-Sided Plate, Portable Rectangular Cookware for Oven, Gas Stove, Grill, and Campfire** — SKU `CJ-2120057692129763330`, cost $20.81, suggested retail $31.21, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/93a69f9a-df24-4ba4-b2ee-ccbc42569497.jpg
-- **Reversible Grill/Griddle 18x9 in Pre-Seasoned Cast Iron Pan Handle, for BBQ, Eggs, Pancakes, Burgers, Dual-Sided Plate, Portable Rectangular Cookware for Oven, Gas Stove, Grill, and Campfire** — SKU `CJ-2120045249294299138`, cost $18.29, suggested retail $27.44, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17942688/2573b655-7cbe-4a02-80c5-5a033aedc10f.jpg
-- **33-Piece Silicone And Stainless Steel Kitchen Utensil Set, Cooking Spoons, Spatulas, And Gadgets For Nonstick Cookware, Pots, And Pans** — SKU `CJ-2115906034742652930`, cost $114.99, suggested retail $172.49, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/51c79d40-9e78-4a54-b6bb-4388a5416c09.jpg
-- **2 Piece Natural Wood Trivet Set, Heat Resistant Hot Dish Holders For Table, Countertop, Pots, Pans And Kitchen Protection** — SKU `CJ-2100283529913331713`, cost $37.99, suggested retail $56.99, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/c85ffdd0-2738-442f-83f1-511d5c1ecf76.png
-- **33-Piece Khaki Silicone Kitchen Utensil Set With Holder, Nonstick Cooking Spatulas, Spoons, And Wooden-Handle Kitchen Gadgets For Pots And Pans** — SKU `CJ-2115906738873511937`, cost $89.99, suggested retail $134.98, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/2fc8f6d7-a3da-4aa9-8a41-a1834f027ce5.jpg
-- **23-Piece Aluminum Cookware Set, Black Non-Stick Pots and Pans Set with Removable Handles - 7 Pots & 2 Lids, Compatible with Induction, Gas, Electric Stoves, Ideal for Home Kitchen & Outdoor Camping​** — SKU `CJ-2123506773674557442`, cost $65.96, suggested retail $98.94, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/b5f4731847dd44ec82605bc9a3a95978.png
-- **Kitchen Utensil Set Silicone Cooking Utensils 33 Kitchen Gadgets  Spoons For Nonstick Cookware Silicone And Stainless Steel Spatula Set-Best Kitchen Tools, Useful Pots And Pans Accessories** — SKU `CJ-2102127814457962498`, cost $68.99, suggested retail $103.48, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/d4dc5e7b-a606-468e-829e-197f0c0520ec.png
-- **Holikme Multi-Purpose Dish Brush Set - Green Scrubbing Tools For Pots, Pans & Groove Gaps** — SKU `CJ-2082525859579822081`, cost $24.99, suggested retail $37.49, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/15f43985-38b3-4371-8279-aca952cd4c9c.png
-- **5 Pans + 2 Pots Commercial Food Warmer Steam Table With Undershelf Shield** — SKU `CJ-1992897503316852738`, cost $479.92, suggested retail $719.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/d0d09ea0-9532-452a-8c9a-b83cbfc4233a.jpg
-- **1Pc Pull Out Pots And Pans Organizer Under Cabinet With 8 Adjustable Dividers Rustproof Carbon Steel Sliding Pots Holder For Kitchen Cookware Bakeware Pots Lids Storage** — SKU `CJ-1960970506238738433`, cost $28.74, suggested retail $43.11, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/24f72294-8703-40f0-a065-8c6ba795d8e8.jpg, chart:  $45.93
+- **19 in 1 Automatic Bread Maker 2 LB with Nonstick Ceramic Pan** — SKU `CJ-2123810017578897409`, cost $109.31, suggested retail $163.97, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/1a793e98cdfb4111aba5e32aa1410d45.jpg
+- **1000W Electric Grill Griddle Nonstick Pancake Woks And Wooden Spatulas Set for Kitchen** — SKU `CJ-2117558284360560641`, cost $60.64, suggested retail $90.96, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/ac82ea0f3ed340b9a05dc97cd3ba3db9.jpg
+- **Milk Frothing Jar, Stainless Steel Creamer Nonstick Coated Frothing Jar 12oz-600ml, Matte** — SKU `CJ-1859803469017141248`, cost $16.36, suggested retail $24.54, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/d37bcb7e-e6cb-4a59-87c5-54f3a62df81d.jpg
+- **24 x 8-inch Fire Pit Pan Stainless Steel Fire Pit Burner Kit Rectangular Indoor or Outdoor** — SKU `CJ-2117080681106563074`, cost $73.38, suggested retail $110.07, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/saleyee-import/0fd6d6284c1f432f831f4d988b995353.jpg
+- **24 X 8 Inch Drop-in Fire Pit Pan, Rectangular Stainless Steel Fire Pit Burner Kit, Propane Gas Fire Pan 120,000 BTU With H-Burner For Indoor Or Outdoor Use** — SKU `CJ-1992880576111865858`, cost $58.42, suggested retail $87.63, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/f186d222-4fd3-4a71-977c-110f221cc1bb.jpg
+- **Titanium Alloy Stainless Steel 10-inch PFAS-Free PFOA-Free Non-Stick Pan Dishwasher-Safe Oven-Safe Suitable For All Stovetop Cookware** — SKU `CJ-1935183601228230658`, cost $63.73, suggested retail $95.60, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/72087012-1b53-4d79-b53c-715d976ecba5.png
+- **10 Sheets Aluminum Rolling Bakery Pan Rack for Pastries And Baking** — SKU `CJ-2122908038307680258`, cost $133.42, suggested retail $200.13, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/ad7a15c12aa741d78f6055cb18e44298.jpg
+- **12-IN-1 Air Fryer Toaster Oven, 25L Convection Oven, 1700W Stainless Steel Toaster Ovens Countertop Combo With Grill, Pizza Pan, Gloves, 12 Slices Toast, 12-inch Pizza, Home And Commercial Use** — SKU `CJ-1992866830692950017`, cost $111.92, suggested retail $167.88, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/2951fc02-13a8-4ee8-bd7d-d16f05e5f2e1.jpg
+- **36 X 12 Inch Drop-in Fire Pit Pan, Rectangular Stainless Steel Fire Pit Burner Kit, Natural & Propane Gas Fire Pan 150,000 BTU With H-Burner For Indoor Or Outdoor Use** — SKU `CJ-1992890844647825409`, cost $77.46, suggested retail $116.19, Candles, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17639424/d1779630-c954-4601-a39e-80690dee19b1.jpg
 
 ## Skipped
 
 - `CJ-1940969292637437953` — bulk-pack name: "3Pcs Pre-Seasoned Cast Iron Skillet Set For Indoor Outdoor 6in 8in 10in Non-Stick Oven Safe Cookware Heat-Resistant Frying Pan For Frying Cooking Baking"
 - `CJ-1990664085694894081` — bulk-pack name: "3Pcs Pre-Seasoned Cast Iron Skillet Set 6/8/10in Non-Stick Oven Safe Cookware Heat-Resistant Frying Pan"
 - `CJ-1990409133705306114` — bulk-pack name: "3Pcs Pre-Seasoned Cast Iron Skillet Set 6-8-10in Non-Stick Oven Safe Cookware Heat-Resistant Frying Pan"
-- `CJ-2001466906413285378` — bulk-pack name: "1 Set Of 3pcs,Silicone Hot Handle Holder, Heat Resistant Potholder Cookware Handle Cast Iron Skillets Handles Grip Covers For Cast Iron Skillet"
-- `CJ-2070400031107493889` — probe filter: name has no kept term (candle/wax/soy): "Outdoor Cast Iron Patio Bench"
-- `CJ-1869309374058352640` — probe filter: name has no kept term (candle/wax/soy): "Outdoor Oval Cast Iron Grill"
-- `CJ-2096908123923308545` — probe filter: name has no kept term (candle/wax/soy): "10-Inch Cast Iron Tortilla Press"
-- `CJ-2123251228392202241` — probe filter: name has no kept term (candle/wax/soy): "10-Inch Cast Iron Tortilla Press"
-- `CJ-1889955457495330817` — probe filter: name has no kept term (candle/wax/soy): "Pre-Seasoned Cast Iron Dutch Oven"
-- `CJ-2113686128159670274` — probe filter: name has no kept term (candle/wax/soy): "Decoration and Repair Cast Iron Sealant 20g"
-- `CJ-2122984480841572353` — probe filter: name has no kept term (candle/wax/soy): "50" Outdoor Welcome Backrest Cast Iron Bench"
-- `CJ-2114451645196218370` — probe filter: name has no kept term (candle/wax/soy): "Decoration and Repair Cast Iron Sealant 20g"
+- `CJ-1990664434518380546` — bulk-pack name: "Non Stick Springform Cake Pan Leakproof 9in 10in 11in Bakeware Pan With Removable Bottom 3Pcs Per Set"
+- `CJ-1942514588667052033` — bulk-pack name: "3Pcs Per Set Non-stick Springform Cake Pan Leakproof 9in 10in 11in Bakeware Pan With Removable Bottom"
+- `CJ-2105369736293433346` — bulk-pack name: "3Pcs Stainless Steel Grill Basket Set With Basting Brush, Compact BBQ Pan"
+- `CJ-1956639641417830402` — bulk-pack name: "8 Qt 6 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel"
+- `CJ-1956556868468363266` — bulk-pack name: "8 Qt 2 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel"
+- `CJ-1992904235752910849` — bulk-pack name: "8 Qt 4 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel"
+- `CJ-1956644451917742081` — bulk-pack name: "8 Qt 2 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel"
+- `CJ-1957021029916758017` — bulk-pack name: "5 Qt 2 Pack Round Chafing Dish Buffet Set Full-Size Pan Stainless Steel Silver"
+- `CJ-1992897577533349889` — bulk-pack name: "5 Qt 4 Pack Round Chafing Dish Buffet Set Full-Size Pan Stainless Steel Silver"
+- `CJ-1956915191724769281` — bulk-pack name: "5 Qt 2 Pack Round Chafing Dish Buffet Set Full-Size Pan Stainless Steel Silver"
+- `CJ-1956558582869151745` — bulk-pack name: "5 Qt 4 Pack Round Chafing Dish Buffet Set Fullsize Pan Stainless Steel Rose Gold"
+- `CJ-1956647315792707586` — bulk-pack name: "8 Qt 4 Pack Rectangle Chafing Dish Buffet Set Full Size Pan Stainless Steel Gold"
+- `CJ-1957291336485326850` — bulk-pack name: "5 Qt 4 Pack Round Chafing Dish Buffet Set Full-Size Pan Stainless Steel Gold"
 - `CJ-2097019935016910849` — probe filter: name has no kept term (candle/wax/soy): "Gold Set B4948, Set"
 - `CJ-2097019953505402881` — probe filter: name has no kept term (candle/wax/soy): "White K-color Set 4948, Set"
-- `CJ-2094707380038131713` — probe filter: excluded term "makeup" in name "AMZ Makeup Gift Set, 1 Set"
-- `CJ-2094709085007937537` — probe filter: excluded term "makeup" in name "AMZ Assorted Makeup Gift Set, 1 Set"
-- `CJ-2095072980261904386` — probe filter: excluded term "makeup" in name "EELHOE Halloween Special Effects Makeup Set, 1 Set"
-- `CJ-2094746585321693185` — probe filter: excluded term "makeup" in name "DOWMOO Halloween Fake Blood Makeup Set, 1 Set"
+- `CJ-2094707380038131713` — probe filter: name has no kept term (candle/wax/soy): "AMZ Makeup Gift Set, 1 Set"
+- `CJ-2094709085007937537` — probe filter: name has no kept term (candle/wax/soy): "AMZ Assorted Makeup Gift Set, 1 Set"
+- `CJ-2095072980261904386` — probe filter: name has no kept term (candle/wax/soy): "EELHOE Halloween Special Effects Makeup Set, 1 Set"
+- `CJ-2094746585321693185` — probe filter: name has no kept term (candle/wax/soy): "DOWMOO Halloween Fake Blood Makeup Set, 1 Set"
 - `CJ-2095073398391664641` — probe filter: name has no kept term (candle/wax/soy): "EELHOE Halloween Fake Blood Special Effects Set, 1 Set"
 - `CJ-2094745016806510594` — probe filter: name has no kept term (candle/wax/soy): "DOWMOO Halloween Face and Body Paint Set, 45 g Set"
 - `CJ-2114466903927369730` — probe filter: name has no kept term (candle/wax/soy): "Concealer & Foundation Tattoo Set"
-- `CJ-2112944115397935105` — probe filter: excluded term "makeup" in name "Makeup Set Halloween Palette"
-- `CJ-2094745127322902529` — probe filter: excluded term "makeup" in name "DOWMOO 3-Piece Halloween Fake Blood Makeup Set, 3 Piece Set"
+- `CJ-2112944115397935105` — probe filter: name has no kept term (candle/wax/soy): "Makeup Set Halloween Palette"
+- `CJ-2094745127322902529` — probe filter: name has no kept term (candle/wax/soy): "DOWMOO 3-Piece Halloween Fake Blood Makeup Set, 3 Piece Set"
 - `CJ-1906911791138754561` — probe filter: name has no kept term (candle/wax/soy): "Temporary Tattoo Pen Set"
 - `CJ-2114442139364044801` — probe filter: name has no kept term (candle/wax/soy): "Concealer & Foundation Tattoo Set"
-- `CJ-2112957957483315202` — probe filter: excluded term "makeup" in name "Halloween Fake Blood Set Simulated Styling Festive Vibe Special Effect Makeup Set"
-- `CJ-2112957930217205761` — probe filter: excluded term "makeup" in name "Halloween Fake Blood Set Simulated Styling Festival Realistic Special Effects Makeup Set"
-- `CJ-2112944126829850626` — probe filter: excluded term "makeup" in name "Makeup Set Halloween Fake Blood"
-- `CJ-2112944137995087874` — probe filter: excluded term "makeup" in name "Makeup Set Halloween Plasma Drops"
-- `CJ-2112944135281373185` — probe filter: excluded term "makeup" in name "Makeup Set Halloween Fake Blood"
-- `CJ-2407190649581607400` — probe filter: name has no kept term (candle/wax/soy): "PHOFAY Liquid Glitter Eyeliner Set"
+- `CJ-2112957957483315202` — probe filter: name has no kept term (candle/wax/soy): "Halloween Fake Blood Set Simulated Styling Festive Vibe Special Effect Makeup Set"
+- `CJ-2112957930217205761` — probe filter: name has no kept term (candle/wax/soy): "Halloween Fake Blood Set Simulated Styling Festival Realistic Special Effects Makeup Set"
+- `CJ-2112944126829850626` — probe filter: name has no kept term (candle/wax/soy): "Makeup Set Halloween Fake Blood"
+- `CJ-2112944137995087874` — probe filter: name has no kept term (candle/wax/soy): "Makeup Set Halloween Plasma Drops"
+- `CJ-2112944135281373185` — probe filter: name has no kept term (candle/wax/soy): "Makeup Set Halloween Fake Blood"
 - `CJ-2501080713581609300` — probe filter: name has no kept term (candle/wax/soy): "PHOFAY Waterproof Colorful Eyeliner Set"
-- `CJ-2117669248680005634` — probe filter: excluded term "plastic" in name "High flower pot, plastic flower pot, brown"
-- `CJ-2117669917482749954` — probe filter: excluded term "plastic" in name "High flower pot, plastic flower pot, black"
-- `CJ-2121527431899312130` — probe filter: excluded term "flower" in name "Flower Pot"
-- `CJ-2117710697278672898` — probe filter: excluded term "plastic" in name "High flower pot, plastic flower pot, gray"
-- `CJ-2123748428750311426` — probe filter: excluded term "flower" in name "Flower Pot"
-- `CJ-2123767176051871746` — probe filter: excluded term "flower" in name "Flower Pot"
-- `CJ-2123745886016425986` — probe filter: excluded term "flower" in name "Flower Pot"
+- `CJ-2407190649581607400` — probe filter: name has no kept term (candle/wax/soy): "PHOFAY Liquid Glitter Eyeliner Set"
+- `CJ-1956958141877342209` — bulk-pack name: "4pcs Stainless Steel Ceramic Coated Pot Set, Including 1 Milk Pot, 2 Stockpots, 1 Non-stick Pan, 4 LIDS And 1 Steamer Green"
 - `CJ-1957279642061131777` — bulk-pack name: "8 Pack Hotel Pans, Anti-Jam Steam Pan With Lid, 0.8mm Thick Stainless Steel Steam Table Pan, 4-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial & Scientific"
 - `CJ-1953123837025951745` — bulk-pack name: "6 Pack Hotel Pans, Size Anti-Jam Steam Pan, 0.8mm Thick Stainless Steel Restaurant Steam Table Pan, 6-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial & Scientific"
 - `CJ-1988907892597342210` — bulk-pack name: "6 Pack Hotel Pans, Full Size Anti-Jam Steam Pan, 0.8mm Thick Stainless Steel Restaurant Steam Table Pan, 2.5-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial & Scientifi"
 - `CJ-1953050144329138177` — bulk-pack name: "6 Pack Hotel Pans, Full Size Anti-Jam Steam Pan, 0.8mm Thick Stainless Steel Restaurant Steam Table Pan, 4-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial  Scientific"
 - `CJ-1988908090680971265` — bulk-pack name: "4 Pack Hotel Pans, Full Size Anti-Jam Steam Pan With Lid, 0.8mm Thick Stainless Steel Steam Table Pan, 4-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial & Scientific"
 - `CJ-1988908195740794881` — bulk-pack name: "8 Pack Hotel Pans, 1/3 Size Anti-Jam Steam Pan With Lid, 0.8mm Thick Stainless Steel Steam Table Pan, 6-Inch Deep Commercial Table Pan, Catering Storage Food Pan, For Industrial & Scientific"
-- `CJ-2001199131437359105` — probe filter: excluded term "car" in name "Portable Oil Drain Pan With Pump 64L Oil Drain Pan 17 Gallon Low Profile Oil Drain Pan With 8\' Hose For SUV Car And Trucks"
-- `CJ-1990664434518380546` — bulk-pack name: "Non Stick Springform Cake Pan Leakproof 9in 10in 11in Bakeware Pan With Removable Bottom 3Pcs Per Set"
-- `CJ-1942514588667052033` — bulk-pack name: "3Pcs Per Set Non-stick Springform Cake Pan Leakproof 9in 10in 11in Bakeware Pan With Removable Bottom"
-- `CJ-2036718392654729218` — probe filter: excluded term "dog" in name "Outdoor Propane Griddle, 2 Burners (11,600 BTU Each), Commercial Stainless Steel Gas Griddle Cart With 4 Lockable Wheels, 1/3 Food Pan, Easy-Grip Side Handle, Ideal For Hot Dogs, Burgers & Meats"
-- `CJ-2093053317266046978` — bulk-pack name: "2 Pack Aqua Asteroid Pot Holders Heat Resistant Kitchen Potholders For Hot Pots Pans Baking And Cooking Protection Set"
-- `CJ-1992896646691463169` — bulk-pack name: "4Qt 1 Pack Rectangle Roll Top Chafing Dish Set 2 Half Size Pans Stainless Steel"
-- `CJ-1992904266371330050` — bulk-pack name: "8 Qt 4 Pack Rectangle Chafing Dish Buffet Set Full-Size & Half-Size Pans Gold"
-- `CJ-2124017640756531201` — probe filter: excluded term "disposable" in name "42-Piece Complete Disposable Chafing Dish Set - Includes 6 Half-Size Pans & Lids, 6 Full-Size Pans, Stands & Utensils - Aluminum Foil Material, Easy Cleanup - Perfect for Weddings, Parties"
-- `CJ-2096582782660411393` — bulk-pack name: "12Pcs Camping Cookware Set Camping Stove Aluminum Pot Pans Kit for Hiking Picnic Outdoor with Cup Fork Spoon Knife"
-- `CJ-2091949451336638466` — bulk-pack name: "2 Pack Silicone Spatula Set, Solid & Slotted Turners For Non-Stick Pans, High Heat Resistant Cooking Utensils, BPA-Free, Black"
-- `CJ-1965675066046799873` — probe filter: excluded term "disposable" in name "36Pcs Per Set Disposable Chafing Dish Buffet Set Food Warmers For Party Buffet Server Catering Supplies With Covers Utensils Half Size Food Pans For Parties Events BBQ Catering"
-- `CJ-2120049234219577346` — probe filter: excluded term "party" in name "4 Packs Chafing Dishes for Buffet Set, 9QT Stainless Steel Chafer, for Banquet Party Wedding, Rectangle Buffet Server Warmer, 2 Full & 2 Half & 3 Third-Size Pans, Fuel Holder, Tong, Glass Pad"
-- `CJ-2120048463687884802` — probe filter: excluded term "party" in name "2 Packs Chafing Dishes for Buffet Set, 9QT Stainless Steel Chafer, for Banquet Party Wedding, Rectangle Buffet Server Warmer, 1 Full & 2 Half-Size Pans, Glass Lid, Fuel Holder, Tong, Glass Pad"
-- `CJ-2120047758410838018` — probe filter: excluded term "party" in name "4 Packs Chafing Dishes for Buffet Set, 9QT Stainless Steel Chafer, for Banquet Party Wedding, Rectangle Buffet Server Warmer, 2 Full & 4 Half-Size Pans, Glass Lid, Fuel Holder, Tong, Glass Pad"
-- `CJ-2120045479880355841` — probe filter: excluded term "party" in name "4 Packs Chafing Dishes for Buffet Set, 9QT Stainless Steel Chafer, for Banquet Party Wedding, Rectangle Buffet Server Warmer, 2 Full & 2 Half & 4 Fourth-Size Pans, Fuel Holder, Tong, Glass Pad"
-- `CJ-1993017819237478401` — bulk-pack name: "Roll Top Chafing Dish Buffet Set, 6 Qt 2 Pack, Stainless Steel Chafer With 2 Full Size Pans, Round Catering Warmer Server With Lid Water Pan Stand Fuel Holder, For At Least 5 People Each"
+- `CJ-1971839317654003714` — probe filter: name has no kept term (candle/wax/soy): "4-Pack Reusable Nonstick Stovetop Burner Protector Liner"
+- `CJ-1942842115221528578` — probe filter: name has no kept term (candle/wax/soy): "4-Pack Reusable Nonstick Stovetop Burner Protector Liner"
+- `CJ-1990409801270730753` — probe filter: name has no kept term (candle/wax/soy): "4-Pack Reusable Nonstick Stovetop Burner Protector Liner"
+- `CJ-2119707859934900226` — probe filter: name has no kept term (candle/wax/soy): "12 Piece Ceramic Nonstick Aluminum Cookware Set, Corsair Blue"
+- `CJ-2107224842209583106` — probe filter: name has no kept term (candle/wax/soy): "Mini Waffle Maker, 4-Inch Ceramic Nonstick Cooking Surface, Aqua"
+- `CJ-1956978320950710273` — probe filter: name has no kept term (candle/wax/soy): "2LB 19-in-1 Bread Maker Automatic Compact Dough Machine Nonstick 3 Crust Colors"
+- `CJ-1956909312900202497` — probe filter: name has no kept term (candle/wax/soy): "2LB 19-in-1 Bread Maker Automatic Compact Dough Machine Nonstick 3 Crust Colors"
+- `CJ-2504260641031609100` — probe filter: name has no kept term (candle/wax/soy): "Stainless Steel Wine Opener"
+- `CJ-2120709650985426946` — probe filter: name has no kept term (candle/wax/soy): "Stainless Steel Prep Table ﻿"
+- `CJ-2112837667815223298` — probe filter: name has no kept term (candle/wax/soy): "Stainless Steel Prep Table ﻿"
+- `CJ-2112841454516760577` — probe filter: name has no kept term (candle/wax/soy): "Stainless Steel Prep Table ﻿"
+- `CJ-233A9BDD-4C8D-4878-B7CC-715F0EB669F0` — probe filter: name has no kept term (candle/wax/soy): "Stainless steel couple necklace"
+- `CJ-2114921449678499842` — probe filter: name has no kept term (candle/wax/soy): "Stainless Steel Prep Table ﻿"
+- `CJ-2056990373824339969` — probe filter: name has no kept term (candle/wax/soy): "Stainless Steel Prep Table"
+- `CJ-632158D8-FA4F-4E8C-8FA8-33392FB2C5F4` — probe filter: name has no kept term (candle/wax/soy): "Stainless steel razor blade"
+- `CJ-2114435006868471810` — probe filter: name has no kept term (candle/wax/soy): "Kitchen Cleaning Stainless Steel Paste"
+- `CJ-2114450970592751618` — probe filter: name has no kept term (candle/wax/soy): "Kitchen Cleaning Stainless Steel Paste"
+- `CJ-2114432591030988802` — probe filter: name has no kept term (candle/wax/soy): "Kitchen Cleaning Stainless Steel Cream"
+- `CJ-2123554453310275586` — probe filter: name has no kept term (candle/wax/soy): "Stainless Steel Dog Washing Station"
+- `CJ-2123563359214370818` — probe filter: name has no kept term (candle/wax/soy): "Stainless Steel Dog Washing Station"
+- `CJ-2406200355321605600` — probe filter: name has no kept term (candle/wax/soy): "Stainless Steel Chef's Kitchen Knife"
+- `CJ-2118457567547822081` — probe filter: name has no kept term (candle/wax/soy): "Jue Fish Ceramic Special Glue, Ceramic And Porcelain Crack Care, Household Daily Repair, Ceramic Adhesive"
+- `CJ-2505240606091621400` — probe filter: name has no kept term (candle/wax/soy): "Ceramic Coffee Cup"
+- `CJ-2113685613326692354` — probe filter: name has no kept term (candle/wax/soy): "JUE FISH Ceramic Special Glue, 50g, Ceramic Bonding for Daily Use"
+- `CJ-2114439306726326274` — probe filter: name has no kept term (candle/wax/soy): "JUE FISH Ceramic Special Glue, 50g, Ceramic Bonding for Daily Use"
+- `CJ-2115712304824844290` — probe filter: name has no kept term (candle/wax/soy): "Ceramic fiber blanket 100kn"
+- `CJ-1985639992937021441` — probe filter: name has no kept term (candle/wax/soy): "Petal Ceramic Mug-White"
+- `CJ-2114460109993750530` — probe filter: name has no kept term (candle/wax/soy): "Decoration and Repair Tile Ceramic Paste Toilet marble Pit glaze Ceramic tile"
+- `CJ-1985641393633230849` — probe filter: name has no kept term (candle/wax/soy): "Planet Ceramic Mug-Pink"
+- `CJ-2118455801315835905` — probe filter: name has no kept term (candle/wax/soy): "Jaysuing Tile Repair Ceramic Paste Toilet marble Pit glaze repair Ceramic tile adhesive"
+- `CJ-2114450166094823425` — probe filter: name has no kept term (candle/wax/soy): "Glass Care Ceramic Coating Agent"
+- `CJ-1638146326586208256` — probe filter: name has no kept term (candle/wax/soy): "Protective Ceramic Cat Food Bowl"
+- `CJ-2113670847177355265` — probe filter: name has no kept term (candle/wax/soy): "Interior Care Ceramic Leather Coating"
+- `CJ-2099749974080262145` — probe filter: name has no kept term (candle/wax/soy): "Glass Care Ceramic Spray Coating"
+- `CJ-2114436174076166146` — probe filter: name has no kept term (candle/wax/soy): "Exterior Care Ceramic Coating Agent"
+- `CJ-2123826371241496578` — probe filter: name has no kept term (candle/wax/soy): "8 Inch Tortilla Press"
+- `CJ-1990601822245658625` — probe filter: name has no kept term (candle/wax/soy): "Wireless Charger Qi-Certified Ultra-Slim 5W Charging Pad For IPhone XS MAX/XR/XS/X/ 8/8 Plus"
+- `CJ-2123251228392202241` — probe filter: name has no kept term (candle/wax/soy): "10-Inch Cast Iron Tortilla Press"
+- `CJ-2096908123923308545` — probe filter: name has no kept term (candle/wax/soy): "10-Inch Cast Iron Tortilla Press"
+- `CJ-2110308984331350017` — probe filter: name has no kept term (candle/wax/soy): "High Speed Memory For Micro SD Card 32GB 64GB 128GB 256GB TF Card Ultra Class 10"
+- `CJ-2114614363520827394` — probe filter: name has no kept term (candle/wax/soy): "10 inch Wall Mount Rainfall Square Shower Head"
+- `CJ-2114560244697333761` — probe filter: name has no kept term (candle/wax/soy): "10 inch Wall Mount Rainfall Square Shower Head"
+- `CJ-2071478159471788033` — probe filter: name has no kept term (candle/wax/soy): "12-inch Black Inegrated LED Flush Mount"
+- `CJ-2110498883615457282` — probe filter: name has no kept term (candle/wax/soy): "12 Inch Tissue Turkey Centerpiece Thanksgiving Decorations"
+- `CJ-2097543860888117249` — probe filter: name has no kept term (candle/wax/soy): "Multi 12 Port USB Charging Station Hub Desktop Wall Cell Phone Charger Organizer"
+- `CJ-2115715286601695234` — probe filter: name has no kept term (candle/wax/soy): "1-Pack 12 Inch Black Shelf Bracket"
+- `CJ-2096970935353761793` — probe filter: name has no kept term (candle/wax/soy): "12 inch Wall Mount Rainfall Square Shower Head"
 
 ## What still needs Diana
 
