@@ -1,7 +1,0 @@
-{
-  "enabled": true,
-  "keywords": ["kitchen gadgets", "kitchenware", "kitchen utensils", "kitchen dishes", "coffee maker", "kitchen tools", "cookware", "kitchen accessories"],
-  "keep": ["kitchen", "gadget", "dish", "dishes", "plate", "bowl", "cup", "mug", "coffee", "pot", "pan", "cookware", "utensil", "spatula", "spoon", "knife", "cutting", "board", "blender", "mixer", "kettle", "teapot", "apron", "towel", "oven", "baking", "storage", "container", "grater", "peeler", "whisk", "ladle", "tongs", "strainer", "colander", "tray", "cook", "bake"],
-  "exclude": ["men", "women", "boy", "girl", "kid", "baby", "toddler", "toy", "pet", "dog", "cat", "clothing", "shirt", "dress", "jeans", "shoes", "jewelry", "makeup", "phone", "car"],
-  "label": "kitchen stuff probe 2026-11-23 — Little Luxuries: kitchen gadgets, dishes, coffee pots, cookware, everything kitchen (name-filtered, pictures required)"
-}
