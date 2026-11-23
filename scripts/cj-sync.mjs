@@ -264,6 +264,140 @@ class FixtureClient {
   }
 }
 
+// --- Size / style chart (Mercy's rules, 2026-11-23) -----------------------
+// No "$X–$Y" ranges anywhere. Chart entries are {size, price} where price
+// is the SELLING price (variant cost x 1.5) — the price the shopper sees
+// and pays. The item keeps a single display price/retail too.
+const BED_ORDER = ['twin', 'twin xl', 'full', 'queen', 'king', 'california king', 'cal king'];
+const PLUS_RANK = { '2xl': 2, '3xl': 3, '4xl': 4, '5xl': 5, '6xl': 6 };
+
+// Pull a size token out of a CJ variant name ("White 2XL" -> "2XL",
+// "Twin" -> "Twin", "Leather" -> null). Normalised so 2X/XXL read as 2XL.
+function extractSize(raw) {
+  const s = String(raw || '');
+  const m = s.match(/\b(twin\s*xl|california king|cal king|twin|full|queen|king|\d{1,2}-\d{1,2}m|\d{1,2}m|[2-6]t|\bxs\b|\bs\b|\bm\b|\bl\b|\bxl\b|[2-6]xl|xxxl|xxl|[2-6]x)\b/i);
+  if (!m) return null;
+  let t = m[0].replace(/\s+/g, ' ').trim().toUpperCase();
+  if (t === 'XXL' || t === '2X') t = '2XL';
+  if (t === 'XXXL' || t === '3X') t = '3XL';
+  if (t === 'XXXXL' || t === '4X') t = '4XL';
+  if (t === '5X') t = '5XL';
+  if (t === '6X') t = '6XL';
+  if (t === 'CAL KING') t = 'CALIFORNIA KING';
+  // Bed sizes read as words ("Twin", "California King"); letter, baby and
+  // number sizes stay uppercase ("XL", "0-3M", "2T").
+  if (/^(TWIN|TWIN XL|FULL|QUEEN|KING|CALIFORNIA KING)$/.test(t)) {
+    return t.split(' ').map((w) => (w === 'XL' ? 'XL' : w.charAt(0) + w.slice(1).toLowerCase())).join(' ');
+  }
+  return t;
+}
+
+// Plus sizes are 2XL and up (XXL counts as 2XL). S–XL, baby sizes and bed
+// sizes are never plus.
+function isPlusVariant(raw, size) {
+  if (/plus/i.test(String(raw || ''))) return true;
+  if (!size) return false;
+  return Object.prototype.hasOwnProperty.call(PLUS_RANK, String(size).toLowerCase());
+}
+
+// Clothes / bedding / style-keyed (gloves etc.) / other, from name+category.
+function classifyItem(nameEn, categoryName) {
+  const hay = `${nameEn || ''} ${categoryName || ''}`.toLowerCase();
+  if (/(sheet|duvet|comforter|pillowcase|pillow sham|bedding|bed set|quilt cover|mattress)/.test(hay)) return 'bedding';
+  if (/(glove|mitten)/.test(hay)) return 'style';
+  if (/(onesie|romper|bodysuit|jumpsuit|sleeper|dress|shirt|blouse|hoodie|sweater|cardigan|pants|legging|jeans|skirt|jacket|coat|shorts|t-?shirt|\btee\b|pajama|nightgown|tracksuit|swimsuit|bikini|tank top|tunic|poncho|kimono)/.test(hay)) return 'clothes';
+  return 'other';
+}
+
+// One chart row per size/style label; if several variants share a label
+// (e.g. White L and Black L) keep the highest price — the large's price.
+function dedupeChart(entries) {
+  const byLabel = new Map();
+  for (const e of entries) {
+    const prev = byLabel.get(e.size);
+    if (!prev || parseFloat(e.price) > parseFloat(prev.price)) byLabel.set(e.size, e);
+  }
+  return [...byLabel.values()];
+}
+
+function orderChart(entries, kind) {
+  if (kind === 'bedding') {
+    return [...entries].sort((a, b) => {
+      const ai = BED_ORDER.indexOf(String(a.size).toLowerCase());
+      const bi = BED_ORDER.indexOf(String(b.size).toLowerCase());
+      return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi);
+    });
+  }
+  if (kind === 'clothes') {
+    return [...entries].sort((a, b) => (PLUS_RANK[String(a.size).toLowerCase()] || 99) - (PLUS_RANK[String(b.size).toLowerCase()] || 99));
+  }
+  return entries;
+}
+
+// Returns {price, retail, size_chart, chart_label, chart_default} or null
+// when there is no usable price. price/retail are the single display
+// values (cost / cost x 1.5); size_chart is null unless the item needs one.
+function priceChart(detail, listItem, nameEn) {
+  const variants = Array.isArray(detail.variants) ? detail.variants : [];
+  const entries = variants
+    .map((v) => {
+      const cost = parseFloat(v.variantSellPrice);
+      const raw = String(v.variantNameEn || '').trim();
+      if (!Number.isFinite(cost) || cost <= 0) return null;
+      const size = extractSize(raw);
+      return { raw, size: size || raw, cost, plus: isPlusVariant(raw, size), hasSize: Boolean(size) };
+    })
+    .filter(Boolean);
+  if (entries.length === 0) {
+    const p = parseFloat(detail.sellPrice ?? listItem.sellPrice);
+    if (!Number.isFinite(p) || p <= 0 || !nameEn) return null;
+    return { price: money(p), retail: money(p * 1.5), size_chart: null, chart_label: null, chart_default: 'flat' };
+  }
+  if (!nameEn) return null;
+
+  const kind = classifyItem(nameEn, detail.categoryName || listItem.threeCategoryName || '');
+  const sell = (cost) => money(cost * 1.5);
+
+  if (kind === 'clothes') {
+    const sized = entries.filter((e) => e.hasSize);
+    const nonPlus = sized.filter((e) => !e.plus);
+    // Flat price: max cost among S–XL. If every sized variant is plus
+    // (rare), fall back to the cheapest variant so nothing is overpriced.
+    const flatPool = nonPlus.length ? nonPlus : sized;
+    const flatCost = flatPool.length ? Math.max(...flatPool.map((e) => e.cost)) : Math.min(...entries.map((e) => e.cost));
+    const out = { price: money(flatCost), retail: sell(flatCost), size_chart: null, chart_label: null, chart_default: 'flat' };
+    const plusEntries = entries.filter((e) => e.plus);
+    if (plusEntries.length > 0) {
+      out.size_chart = orderChart(dedupeChart(plusEntries.map((e) => ({ size: e.size, price: sell(e.cost) }))), 'clothes');
+      out.chart_label = 'Plus sizes:';
+    } else if (sized.length === 0 && new Set(entries.map((e) => e.cost)).size > 1) {
+      // Clothes with style/color variants only and different prices:
+      // chart by style, same shape as the gloves rule.
+      out.size_chart = dedupeChart(entries.map((e) => ({ size: e.raw, price: sell(e.cost) })));
+      out.chart_label = 'Choose a style:';
+      out.chart_default = 'first';
+      out.price = money(Math.min(...entries.map((e) => e.cost)));
+      out.retail = sell(Math.min(...entries.map((e) => e.cost)));
+    }
+    return out;
+  }
+
+  // Bedding, gloves/style, and anything else: one chart row per variant
+  // when prices genuinely differ; a single price when they don't.
+  const costs = entries.map((e) => e.cost);
+  if (new Set(costs).size === 1) {
+    return { price: money(costs[0]), retail: sell(costs[0]), size_chart: null, chart_label: null, chart_default: 'flat' };
+  }
+  const minCost = Math.min(...costs);
+  return {
+    price: money(minCost),
+    retail: sell(minCost),
+    size_chart: orderChart(dedupeChart(entries.map((e) => ({ size: e.size, price: sell(e.cost) }))), kind),
+    chart_label: kind === 'style' ? 'Choose a style:' : 'Choose a size:',
+    chart_default: 'first',
+  };
+}
+
 // --- Mapping CJ -> store schema ---------------------------------------------
 // Exact fields index.html reads: name, cat, sku, dept, discount, has_pic, img,
 // price, retail, url, warehouse, note, source. Plus batch / price_ok /
@@ -272,21 +406,19 @@ function mapProduct(detail, listItem, runTag) {
   const pid = String(detail.pid ?? listItem.id ?? '');
   const nameEn = (detail.productNameEn || listItem.nameEn || '').trim();
   const variants = Array.isArray(detail.variants) ? detail.variants : [];
-  const prices = variants
-    .map((v) => parseFloat(v.variantSellPrice))
-    .filter((n) => Number.isFinite(n) && n > 0);
-  if (prices.length === 0) {
-    const p = parseFloat(detail.sellPrice ?? listItem.sellPrice);
-    if (Number.isFinite(p) && p > 0) prices.push(p);
-  }
-  if (prices.length === 0 || !nameEn) return null;
 
-  // Mercy's rule (2026-11-23): one price, no ranges — price every size the
-  // same as the most expensive variant (the large). That's how it's done in
-  // the US; a range looks like ordering from Asia.
-  const max = Math.max(...prices);
-  const price = money(max);
-  const retail = money(max * 1.5);
+  // Mercy's pricing rules (2026-11-23) — no "$X–$Y" ranges anywhere:
+  //  - Clothes: one flat price for S–XL — the max cost among non-plus sizes
+  //    (the large). Plus sizes (2XL and up) keep their own higher price
+  //    from their own cost, listed in size_chart.
+  //  - Bedding: a chart, Twin / Full / Queen / King, each from its own cost.
+  //  - Gloves and style-keyed items: a chart keyed by style, each style
+  //    from its own cost.
+  //  - Anything else whose variants genuinely differ in price: a chart
+  //    keyed by variant name. Variants that all cost the same get one price.
+  const chart = priceChart(detail, listItem, nameEn);
+  if (!chart) return null;
+  const { price, retail, size_chart, chart_label, chart_default } = chart;
 
   const { dept, cat } = mapDept(nameEn, detail.categoryName || listItem.threeCategoryName || '');
   const img = detail.bigImage || listItem.bigImage || '';
@@ -301,7 +433,8 @@ function mapProduct(detail, listItem, runTag) {
     dept,
     // Flag the cheapest items for the Discount / Blowout section, same
     // pattern as the hand-added items (lowest-priced items flagged).
-    discount: max <= 8,
+    // Based on the single display price the shopper sees.
+    discount: parseFloat(price) <= 8,
     has_pic: Boolean(img),
     img,
     name: nameEn,
@@ -309,6 +442,7 @@ function mapProduct(detail, listItem, runTag) {
     price,
     price_ok: false, // every price is "price to verify" until Diana checks it
     retail,
+    ...(size_chart ? { size_chart, chart_label, chart_default } : {}),
     sku: `CJ-${pid}`,
     source: 'CJ Dropshipping',
     url: cjProductUrl(nameEn, pid),
@@ -470,7 +604,8 @@ async function main() {
   lines.push('## Added', '');
   if (added.length === 0) lines.push('_None._', '');
   for (const p of added) {
-    lines.push(`- **${p.name}** — SKU \`${p.sku}\`, cost $${p.price}, suggested retail $${p.retail}, ${p.dept}, pic: ${p.has_pic ? 'yes' : 'no'}, US warehouse: ${p.us_warehouse ? 'yes' : 'UNCONFIRMED'}, img: ${p.img || '(none)'}`);
+    const chartText = p.size_chart ? `, chart: ${p.size_chart.map((e) => `${e.size} $${e.price}`).join(', ')}` : '';
+    lines.push(`- **${p.name}** — SKU \`${p.sku}\`, cost $${p.price}, suggested retail $${p.retail}, ${p.dept}, pic: ${p.has_pic ? 'yes' : 'no'}, US warehouse: ${p.us_warehouse ? 'yes' : 'UNCONFIRMED'}, img: ${p.img || '(none)'}${chartText}`);
   }
   lines.push('', '## Skipped', '');
   if (skipped.length === 0) lines.push('_None._', '');
