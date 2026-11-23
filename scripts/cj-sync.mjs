@@ -23,6 +23,9 @@
  *   - Nothing invented: every price/picture comes from CJ. price_ok stays
  *     false ("price to verify") until Diana verifies it, same as the
  *     hand-added items already in products.json.
+ *   - The dry-run report lists each added item's real CJ image URL
+ *     (detail.bigImage), so pictures can be filled in from the report
+ *     without re-querying CJ.
  *   - First runs stay small: --max defaults to 10 products.
  *
  * Secrets (never hardcode, never log):
@@ -466,7 +469,7 @@ async function main() {
   lines.push('## Added', '');
   if (added.length === 0) lines.push('_None._', '');
   for (const p of added) {
-    lines.push(`- **${p.name}** — SKU \`${p.sku}\`, cost $${p.price}, suggested retail $${p.retail}, ${p.dept}, pic: ${p.has_pic ? 'yes' : 'no'}, US warehouse: ${p.us_warehouse ? 'yes' : 'UNCONFIRMED'}`);
+    lines.push(`- **${p.name}** — SKU \`${p.sku}\`, cost $${p.price}, suggested retail $${p.retail}, ${p.dept}, pic: ${p.has_pic ? 'yes' : 'no'}, US warehouse: ${p.us_warehouse ? 'yes' : 'UNCONFIRMED'}, img: ${p.img || '(none)'}`);
   }
   lines.push('', '## Skipped', '');
   if (skipped.length === 0) lines.push('_None._', '');
