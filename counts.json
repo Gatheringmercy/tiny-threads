@@ -1,1 +1,10 @@
-{"by_dept":{"Baby Gift Sets":1,"Onesies & Rompers":3,"Socks & Accessories":2},"discount":3,"total":6}
+{
+  "by_dept": {
+    "Onesies & Rompers": 3,
+    "Socks & Accessories": 2,
+    "Baby Gift Sets": 1,
+    "Candles": 10
+  },
+  "discount": 6,
+  "total": 16
+}
