@@ -75,7 +75,7 @@ footer{border-top:2px solid var(--pink);padding:28px 20px;text-align:center;colo
 <div id="toast"></div>
 <script>
 let PRODUCTS=[]; let dept='All';
-const DEPTS=['All','Discount / Blowout','Onesies & Rompers','Socks & Accessories','Baby Gift Sets'];
+const DEPTS=['All','Discount / Blowout','Onesies & Rompers','Socks & Accessories','Baby Gift Sets','Rompers & Jumpsuits','Sets & Outfits','Jackets','Jeans & Shorts'];
 function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',3200)}
 if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){const b=document.getElementById('bg');if(b){b.pause();b.style.display='none'}}
 fetch('products.json').then(r=>r.json()).then(d=>{PRODUCTS=d;buildFilters();render()});
