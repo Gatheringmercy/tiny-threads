@@ -39,6 +39,12 @@
  *   node scripts/cj-sync.mjs --fixture tests/cj-fixture.json   (local test only:
  *       reads canned CJ responses instead of calling the live API)
  *
+ * Probe mode: if `cj-probe.json` exists in the repo root (and no --keywords
+ * flag is given), its keywords + keep/exclude name filter drive the run
+ * instead of the baby defaults. Used for one-off probes (e.g. candles for
+ * Pill-O-Talk). Remove or disable the file right after the probe run — the
+ * daily scheduled run must never see it enabled.
+ *
  * Exit codes: 0 = ok (even if 0 new products), 1 = missing key / auth / API error.
  *
  * Rate limit: CJ free accounts allow 1 request/second. This script waits
@@ -46,6 +52,8 @@
  */
 
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
 
 const API_BASE = 'https://developers.cjdropshipping.com/api2.0/v1';
 const RATE_LIMIT_MS = 1100;
@@ -63,16 +71,64 @@ const DEFAULT_KEYWORDS = [
   'baby gift set',
 ];
 
+// --- Optional probe config --------------------------------------------------
+// A one-off probe (e.g. the 2026-11-22 candle probe for Pill-O-Talk) is
+// driven by `cj-probe.json` in the repo root. When the file exists and is
+// enabled, it overrides the keywords and applies a name filter; when it is
+// absent or disabled, the script behaves exactly as before (baby keywords,
+// no name filter). The file is a probe switch: the daily scheduled run must
+// never see it enabled, so it is removed (or disabled) right after the
+// probe run. Explicit --keywords on the command line always wins over it.
+function loadProbeConfig() {
+  const scriptDir = dirname(fileURLToPath(import.meta.url));
+  for (const p of [join(scriptDir, '..', 'cj-probe.json'), join(process.cwd(), 'cj-probe.json')]) {
+    if (!existsSync(p)) continue;
+    try {
+      const cfg = JSON.parse(readFileSync(p, 'utf8'));
+      if (cfg && cfg.enabled !== false && Array.isArray(cfg.keywords) && cfg.keywords.length > 0) {
+        return {
+          keywords: cfg.keywords.map(String).map((s) => s.trim()).filter(Boolean),
+          keep: (cfg.keep || []).map((s) => String(s).toLowerCase()),
+          exclude: (cfg.exclude || []).map((s) => String(s).toLowerCase()),
+          label: cfg.label || 'probe',
+        };
+      }
+    } catch (err) {
+      console.error(`[cj] WARNING: could not parse ${p}: ${err.message}`);
+    }
+  }
+  return null;
+}
+
+// Match a whole word (plus optional plural) in a product name.
+function termRe(term) {
+  const esc = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`\\b${esc}(e?s)?\\b`, 'i');
+}
+
+// Probe name filter. Exclude terms win over keep terms (so "wax warmer" is
+// out even though it contains "wax"). Returns a skip reason or null.
+function probeFilterReason(name, probe) {
+  const hay = name || '';
+  for (const term of probe.exclude) {
+    if (term && termRe(term).test(hay)) return `probe filter: excluded term "${term}" in name "${name}"`;
+  }
+  if (probe.keep.length > 0 && !probe.keep.some((t) => t && termRe(t).test(hay))) {
+    return `probe filter: name has no kept term (candle/wax/soy): "${name}"`;
+  }
+  return null;
+}
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // --- CLI args ---------------------------------------------------------------
 function parseArgs(argv) {
-  const args = { max: 10, dryRun: false, keywords: DEFAULT_KEYWORDS, products: 'products.json', counts: 'counts.json', report: 'cj-sync-report.md', fixture: null };
+  const args = { max: 10, dryRun: false, keywords: DEFAULT_KEYWORDS, keywordsFromCli: false, products: 'products.json', counts: 'counts.json', report: 'cj-sync-report.md', fixture: null };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') args.dryRun = true;
     else if (a === '--max') args.max = Math.max(1, parseInt(argv[++i], 10) || 10);
-    else if (a === '--keywords') args.keywords = argv[++i].split(',').map((s) => s.trim()).filter(Boolean);
+    else if (a === '--keywords') { args.keywords = argv[++i].split(',').map((s) => s.trim()).filter(Boolean); args.keywordsFromCli = true; }
     else if (a === '--products') args.products = argv[++i];
     else if (a === '--counts') args.counts = argv[++i];
     else if (a === '--report') args.report = argv[++i];
@@ -271,7 +327,16 @@ function recount(products) {
 // --- Main -------------------------------------------------------------------
 async function main() {
   const args = parseArgs(process.argv);
-  const runTag = `CJ sync — ${new Date().toISOString().slice(0, 10)} (test)`;
+  // A probe config (cj-probe.json) overrides the keywords + adds a name
+  // filter, unless --keywords was given explicitly on the command line —
+  // in that case the probe is fully off (no keyword override, no filter).
+  let probe = loadProbeConfig();
+  if (probe && args.keywordsFromCli) probe = null;
+  if (probe) {
+    args.keywords = probe.keywords;
+    console.log(`[cj] probe mode (${probe.label}): keywords from cj-probe.json — ${args.keywords.join(', ')}`);
+  }
+  const runTag = `CJ sync — ${new Date().toISOString().slice(0, 10)} (test)${probe ? ' (candle probe)' : ''}`;
   const started = Date.now();
 
   const apiKey = process.env.CJ_API_KEY;
@@ -309,11 +374,14 @@ async function main() {
   const added = [];
   const skipped = [];
   const seenPids = new Set();
+  const probeStats = { totalResults: 0, perKeyword: [], filteredNoKeep: 0, filteredExcluded: 0 };
 
   outer: for (const keyword of args.keywords) {
     if (added.length >= args.max) break;
     const results = await client.search(keyword);
     console.log(`[cj] "${keyword}": ${results.length} results (US, in stock).`);
+    probeStats.totalResults += results.length;
+    probeStats.perKeyword.push({ keyword, total: results.length });
     if (!args.fixture) await sleep(RATE_LIMIT_MS);
 
     for (const item of results) {
@@ -324,6 +392,17 @@ async function main() {
 
       const sku = `CJ-${pid}`;
       if (knownSkus.has(sku)) { skipped.push({ sku, reason: 'already in products.json' }); continue; }
+
+      // Probe name filter, before the details call (saves API calls).
+      if (probe) {
+        const fReason = probeFilterReason(item.nameEn || '', probe);
+        if (fReason) {
+          skipped.push({ sku, reason: fReason });
+          if (fReason.startsWith('probe filter: excluded term')) probeStats.filteredExcluded += 1;
+          else probeStats.filteredNoKeep += 1;
+          continue;
+        }
+      }
 
       const bulkReason = looksLikeBulk(item);
       if (bulkReason) { skipped.push({ sku, reason: bulkReason }); continue; }
@@ -341,8 +420,20 @@ async function main() {
       const bulkReason2 = looksLikeBulk({ ...item, ...detail });
       if (bulkReason2) { skipped.push({ sku, reason: bulkReason2 }); continue; }
 
+      // Detail names can differ from list names — re-check the probe filter.
+      if (probe) {
+        const fReason2 = probeFilterReason(detail.productNameEn || item.nameEn || '', probe);
+        if (fReason2) {
+          skipped.push({ sku, reason: `${fReason2} (detail name)` });
+          if (fReason2.startsWith('probe filter: excluded term')) probeStats.filteredExcluded += 1;
+          else probeStats.filteredNoKeep += 1;
+          continue;
+        }
+      }
+
       const mapped = mapProduct(detail, item, runTag);
       if (!mapped) { skipped.push({ sku, reason: 'no usable price or name from CJ' }); continue; }
+      if (probe) { mapped.dept = 'Candles'; mapped.cat = 'Candles'; }
 
       added.push(mapped);
       console.log(`[cj] + ${mapped.sku} "${mapped.name}" $${mapped.price} -> retail $${mapped.retail} (${mapped.dept})`);
@@ -360,17 +451,28 @@ async function main() {
     `- Keywords: ${args.keywords.join(', ')}`,
     `- Added: ${added.length} (cap: ${args.max}) — Skipped: ${skipped.length} — Already in file: ${existing.length}`,
     '',
-    '## Added',
-    '',
   ];
+  if (probe) {
+    lines.push(
+      `## Probe filter summary (${probe.label})`,
+      '',
+      `- Total results returned by CJ across ${args.keywords.length} keywords: ${probeStats.totalResults}`,
+      ...probeStats.perKeyword.map((k) => `  - "${k.keyword}": ${k.total} results`),
+      `- Filtered out by name: ${probeStats.filteredNoKeep + probeStats.filteredExcluded} (no kept term candle/wax/soy: ${probeStats.filteredNoKeep}; excluded term LED/flameless/electric/holder/warmer/lamp/fake: ${probeStats.filteredExcluded})`,
+      `- Name filter kept: ${probeStats.totalResults - probeStats.filteredNoKeep - probeStats.filteredExcluded} results for further checks (bulk, image, details)`,
+      '',
+    );
+  }
+  lines.push('## Added', '');
   if (added.length === 0) lines.push('_None._', '');
   for (const p of added) {
     lines.push(`- **${p.name}** — SKU \`${p.sku}\`, cost $${p.price}, suggested retail $${p.retail}, ${p.dept}, pic: ${p.has_pic ? 'yes' : 'no'}, US warehouse: ${p.us_warehouse ? 'yes' : 'UNCONFIRMED'}`);
   }
   lines.push('', '## Skipped', '');
   if (skipped.length === 0) lines.push('_None._', '');
-  for (const s of skipped.slice(0, 50)) lines.push(`- \`${s.sku}\` — ${s.reason}`);
-  if (skipped.length > 50) lines.push(`- ...and ${skipped.length - 50} more.`);
+  const skipCap = probe ? 200 : 50;
+  for (const s of skipped.slice(0, skipCap)) lines.push(`- \`${s.sku}\` — ${s.reason}`);
+  if (skipped.length > skipCap) lines.push(`- ...and ${skipped.length - skipCap} more.`);
   lines.push('', '## What still needs Diana', '', '- Review the pictures and prices above — every new price is marked "price to verify" on the site until she checks it.', '- Cut anything that looks cheap, overseas-looking, or wrong for the store.', '- Raise the `--max` cap (currently 10) only after this test batch looks right.', '');
 
   if (args.dryRun) {
