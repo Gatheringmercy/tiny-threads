@@ -1,21 +1,21 @@
 # CJ sync report
 
-- Run: 2026-11-25T14:54:18.232Z (live write)
+- Run: 2026-11-26T14:52:00.844Z (live write)
 - Keywords: baby onesie, baby romper, baby sleeper, baby blanket, baby dress, baby hat, baby shoes, baby gift set
-- Added: 10 (cap: 10) — Skipped: 12 — Already in file: 38
+- Added: 10 (cap: 10) — Skipped: 27 — Already in file: 48
 
 ## Added
 
-- **Onesie Animal Fleece Pajamas Halloween Cosplay Costumes Sleepwear Party Wear** — SKU `CJ-1975733540304347138`, cost $25.00, suggested retail $37.50, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/604c956f-130c-479b-86d5-d82f5031f9d3.jpg
-- **Onesie Animal Fleece Pajamas Halloween Cosplay Costumes Sleepwear Party Wear** — SKU `CJ-1975735578102751233`, cost $25.00, suggested retail $37.50, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/be5d9fa0-f12d-4579-be63-d77adb6a82b5.png
-- **Onesie Animal Fleece Pajamas Halloween Cosplay Costumes Sleepwear Party Wear** — SKU `CJ-1975487425269096450`, cost $25.00, suggested retail $37.50, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/9756d009-bbde-44dd-b04f-7d1386fbde68.jpg
-- **Womens Sleeveless Jumpsuit Backless Lace-up Halter Overall Pants Wide-leg Straight Onesie Trousers** — SKU `CJ-2605100126491605700`, cost $7.63, suggested retail $11.45, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2026/06/16/10/c7b0ba45-fca8-4561-91ec-5094725a1eb2.jpg
-- **Male And Female Baby Cartoon Striped Dinosaur Embroidery Long-Sleeved Jumpsuit** — SKU `CJ-1355410107994869760`, cost $7.71, suggested retail $11.57, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/1611989401218.jpg
-- **Baby Bath Chair** — SKU `CJ-1880465339466809345`, cost $36.68, suggested retail $55.02, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/0d8f3bac-18f4-48b9-9d57-c962a14e9785.jpg
-- **Baby Wipe Warmer With 3 Temperature Settings Type-C Powered Baby Wet Wipes Dispenser With Night Light Large Capacity Diaper Wipe Warmer For Baby GPCT5369** — SKU `CJ-1970785096739979266`, cost $29.61, suggested retail $44.42, Socks & Accessories, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/09211949-7951-4a82-98e9-f140b98501dc.jpg
-- **Adjustable Baby Cotton Nursing Arm Pillow Breastfeeding Washable Baby Infant Nursing Breastfeeding Pillow Cushion Arm Pad** — SKU `CJ-1665261893595959296`, cost $1.55, suggested retail $2.33, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://oss-cf.cjdropshipping.com/product/2024/01/05/05/7d10fd8b-4f6f-47c2-9fd0-5604fc29e694.jpg, chart: Adjustable Baby Cotton Nursing Arm Pillow Breastfeeding Washable Baby Infant Nursing Breastfeeding Pillow Cushion Arm Pad Dark Blue Small Crown 25X23CM $2.52, Adjustable Baby Cotton Nursing Arm Pillow Breastfeeding Washable Baby Infant Nursing Breastfeeding Pillow Cushion Arm Pad Gray Crown 25X23CM $2.52, Adjustable Baby Cotton Nursing Arm Pillow Breastfeeding Washable Baby Infant Nursing Breastfeeding Pillow Cushion Arm Pad Gray Fish 25X23CM $2.52, Adjustable Baby Cotton Nursing Arm Pillow Breastfeeding Washable Baby Infant Nursing Breastfeeding Pillow Cushion Arm Pad Gray Pinstripe 25X23CM $2.52, Adjustable Baby Cotton Nursing Arm Pillow Breastfeeding Washable Baby Infant Nursing Breastfeeding Pillow Cushion Arm Pad Grey star 25X23CM $2.33, Adjustable Baby Cotton Nursing Arm Pillow Breastfeeding Washable Baby Infant Nursing Breastfeeding Pillow Cushion Arm Pad Beige Letter U 25X23CM $2.33, Adjustable Baby Cotton Nursing Arm Pillow Breastfeeding Washable Baby Infant Nursing Breastfeeding Pillow Cushion Arm Pad Pink stars 25X23CM $2.33
-- **Fleece-lined Baby Baby One-piece Romper Western Style Long Jumpsuit** — SKU `CJ-1692462303205134336`, cost $12.44, suggested retail $18.66, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/623eec9a-0fd4-42fa-a14f-f1f58f736b00.jpg
-- **( 90) Toddle Baby Girl Clothes Summer Outfits Romper, Daddy's Girl Romper Bbay Girl Father's Day Clothes Shorts Set (3 Piece Set)** — SKU `CJ-2096999435393859586`, cost $2.50, suggested retail $3.75, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://xffbbhangzhou.oss-cn-hangzhou.aliyuncs.com/product/37J1E468H99GTREY832S49H8AH.jpg
+- **(120) Toddle Baby Girl Clothes Summer Outfits Romper, Daddy's Girl Romper Bbay Girl Father's Day Clothes Shorts Set (3 Piece Set)** — SKU `CJ-2096999496550735874`, cost $2.50, suggested retail $3.75, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://xffbbhangzhou.oss-cn-hangzhou.aliyuncs.com/product/1Z7PQH7A8A9FQSWGCG3D8HT00A.jpg
+- **(100) Toddle Baby Girl Clothes Summer Outfits Romper, Daddy's Girl Romper Bbay Girl Father's Day Clothes Shorts Set (3 Piece Set)** — SKU `CJ-2096999455346163713`, cost $2.50, suggested retail $3.75, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://xffbbhangzhou.oss-cn-hangzhou.aliyuncs.com/product/08HYHPWBR48YCBR1P2E3WD6PNB.jpg
+- **(110) Toddle Baby Girl Clothes Summer Outfits Romper, Daddy's Girl Romper Bbay Girl Father's Day Clothes Shorts Set (3 Piece Set)** — SKU `CJ-2096999475415638017`, cost $2.50, suggested retail $3.75, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://xffbbhangzhou.oss-cn-hangzhou.aliyuncs.com/product/52VDH5G2A98YCS0DYB2ARJF8W4.jpg
+- **Baby My First Christmas Outfit, Infant Boy Girl Santa Long Sleeve Romper Jumpsuit With Matching Headband, Fall Winter One Piece Christmas Bodysuit** — SKU `CJ-2109561210287472641`, cost $10.60, suggested retail $15.90, Socks & Accessories, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/4e3aff4a-e544-45df-9f85-d6ca33300c71.jpg
+- **Baby Bath Seat,Baby Bath Chair, Newborn Shower Seat Bathtub Seat Cushion Children's Wrap-Around Shower Chair For 6 Months&Up Cyan** — SKU `CJ-2046132746618761218`, cost $38.59, suggested retail $57.89, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17766432/f362a5e0-0478-4706-acdc-8e017bfc6243.jpg
+- **Baby Wrist Rattle Socks And Foot Finder Set Perfect Baby Toys For 0-12 Months Newborn Boys And Girls As Shower Gifts Garden Bug Series** — SKU `CJ-2076385609824759809`, cost $30.55, suggested retail $45.83, Socks & Accessories, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/c9d245b8-285d-4aac-bde1-f7fe72361644.png
+- **1Pc Baby Bath Tub With Thermometer Collapsible Travel Friendly 0 To 24Months Baby Bathtub With Drain Hole For Newborn Infant Toddler Odorless Toxic Free Foldable Bathtub** — SKU `CJ-1980883460948873217`, cost $44.48, suggested retail $66.72, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/7ce9483f-a0c8-480d-8f30-ed546de37a4f.jpg
+- **Wooden Baby Walker with Multi-Activity Center** — SKU `CJ-2095824735909756930`, cost $59.25, suggested retail $88.88, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/doba-import/ff2a79d2eb444dfc8a12b93e1cacfa62.jpg
+- **Y165-L-SLEEPER-GREEN Left Sleeper Green** — SKU `CJ-2062364425278640130`, cost $159.17, suggested retail $238.76, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17805312/561f41fa-fc11-4773-8da5-93fadb0d0790.jpg
+- **Y165-R-SLEEPER-BLACK** — SKU `CJ-2062363380438523906`, cost $159.17, suggested retail $238.76, Onesies & Rompers, pic: yes, US warehouse: yes, img: https://cf.cjdropshipping.com/17805312/b7693aa1-e2fa-4d83-948b-a818b929b5d5.jpg
 
 ## Skipped
 
@@ -26,11 +26,26 @@
 - `CJ-1980214929482100738` — already in products.json
 - `CJ-1975736616671141890` — already in products.json
 - `CJ-1980219706707922946` — already in products.json
+- `CJ-1975735578102751233` — already in products.json
+- `CJ-1975487425269096450` — already in products.json
 - `CJ-1975495462776102913` — already in products.json
 - `CJ-1975493707912863746` — already in products.json
 - `CJ-1975492379423514626` — already in products.json
+- `CJ-1975733540304347138` — already in products.json
+- `CJ-2605100126491605700` — already in products.json
+- `CJ-1355410107994869760` — already in products.json
+- `CJ-1880465339466809345` — already in products.json
 - `CJ-1363713977607131136` — already in products.json
+- `CJ-1970785096739979266` — already in products.json
+- `CJ-1665261893595959296` — already in products.json
+- `CJ-1692462303205134336` — already in products.json
 - `CJ-2034164422854230018` — bulk-pack name: "3Pcs Infant Baby Girl Outfits,Summer Clothes Sets Ruffle Ribbed Romper"
+- `CJ-2096999416154587137` — already in products.json
+- `CJ-2096999435393859586` — already in products.json
+- `CJ-2038958473894187010` — already in products.json
+- `CJ-2109541369727991809` — already in products.json
+- `CJ-2034231659659161602` — already in products.json
+- `CJ-2034217777951567873` — already in products.json
 
 ## What still needs Diana
 
