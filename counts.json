@@ -1,6 +1,6 @@
 {
   "by_dept": {
-    "Onesies & Rompers": 30,
+    "Onesies & Rompers": 40,
     "Socks & Accessories": 5,
     "Baby Gift Sets": 1,
     "Candles": 10,
@@ -10,5 +10,5 @@
     "Jeans & Shorts": 1
   },
   "discount": 17,
-  "total": 58
+  "total": 68
 }
